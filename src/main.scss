@@ -10,18 +10,38 @@
 //     text-align: center;
 // }
 
+$universalGrey: #767676;
+
 ul.navtabs {
     list-style-type: none;
     li.nav-item{
         width: fit-content;
         font-size: .8rem;
         a {
-            color: #282c34;
+            color: $universalGrey;
         }
         .active {
-            border-bottom: 1px solid #282c34;
+            border-bottom: 1px solid $universalGrey;
             border-bottom-width: thin;
             text-align: center;
         }
+    }
+}
+
+#themeToggle {
+    text-align: center;
+    margin-top: 1rem;
+    .btn{
+        outline: none;
+    }
+}
+
+.navbar {
+    .navbar-toggler-icon {
+        color: $universalGrey;
+        outline: none;
+    }
+    .navbar-nav .nav-item {
+        color: $universalGrey;
     }
 }

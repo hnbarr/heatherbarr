@@ -6,7 +6,6 @@ import { GlobalStyles } from "./components/GlobalStyles";
 import { lightTheme, darkTheme } from "./components/Theme"
 
 function App() {
-
   const [theme, setTheme] = useState('light');
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light')
@@ -17,7 +16,9 @@ function App() {
     <>
     <GlobalStyles/>
     <BrowserRouter>
-    <button onClick={themeToggler}>Switch Theme</button>
+    <div id="themeToggle">
+      <i className="fa fa-adjust" onClick={themeToggler}></i>
+    </div>
         <div>
             <Router />
         </div>

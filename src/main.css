@@ -10,12 +10,30 @@ ul.navtabs li.nav-item {
 }
 
 ul.navtabs li.nav-item a {
-  color: #282c34;
+  color: #767676;
 }
 
 ul.navtabs li.nav-item .active {
-  border-bottom: 1px solid #282c34;
+  border-bottom: 1px solid #767676;
   border-bottom-width: thin;
   text-align: center;
+}
+
+#themeToggle {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#themeToggle .btn {
+  outline: none;
+}
+
+.navbar .navbar-toggler-icon {
+  color: #767676;
+  outline: none;
+}
+
+.navbar .navbar-nav .nav-item {
+  color: #767676;
 }
 /*# sourceMappingURL=main.css.map */
