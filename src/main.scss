@@ -10,13 +10,31 @@
 //     text-align: center;
 // }
 
+body {
+    font-size: .85rem;
+}
+
 $universalGrey: #767676;
+$universalPurple: #BB86FC;
 
 ul.navtabs {
     list-style-type: none;
     li.nav-item{
         width: fit-content;
-        font-size: .8rem;
+        a {
+            color: $universalGrey;
+        }
+        .active {
+            border-bottom: 1px solid $universalGrey;
+            border-bottom-width: thin;
+            text-align: center;
+        }
+    }
+}
+
+ul.navtabsMobile {
+    list-style-type: none;
+    li.nav-item{
         a {
             color: $universalGrey;
         }
@@ -30,18 +48,23 @@ ul.navtabs {
 
 #themeToggle {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: .5rem;
     .btn{
         outline: none;
     }
 }
 
 .navbar {
-    .navbar-toggler-icon {
-        color: $universalGrey;
-        outline: none;
-    }
-    .navbar-nav .nav-item {
+    margin-top: 1.5rem;
+    .nav-item {
+        text-align: right;
         color: $universalGrey;
     }
+}
+#mobileTopPane {
+    height: 300px;
+}
+
+#activePane {
+    margin-top: 300px;
 }

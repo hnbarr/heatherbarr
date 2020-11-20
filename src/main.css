@@ -1,3 +1,7 @@
+body {
+  font-size: .85rem;
+}
+
 ul.navtabs {
   list-style-type: none;
 }
@@ -6,7 +10,6 @@ ul.navtabs li.nav-item {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-size: .8rem;
 }
 
 ul.navtabs li.nav-item a {
@@ -19,21 +22,43 @@ ul.navtabs li.nav-item .active {
   text-align: center;
 }
 
+ul.navtabsMobile {
+  list-style-type: none;
+}
+
+ul.navtabsMobile li.nav-item a {
+  color: #767676;
+}
+
+ul.navtabsMobile li.nav-item .active {
+  border-bottom: 1px solid #767676;
+  border-bottom-width: thin;
+  text-align: center;
+}
+
 #themeToggle {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 #themeToggle .btn {
   outline: none;
 }
 
-.navbar .navbar-toggler-icon {
-  color: #767676;
-  outline: none;
+.navbar {
+  margin-top: 1.5rem;
 }
 
-.navbar .navbar-nav .nav-item {
+.navbar .nav-item {
+  text-align: right;
   color: #767676;
+}
+
+#mobileTopPane {
+  height: 300px;
+}
+
+#activePane {
+  margin-top: 300px;
 }
 /*# sourceMappingURL=main.css.map */
