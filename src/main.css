@@ -1,0 +1,21 @@
+ul.navtabs {
+  list-style-type: none;
+}
+
+ul.navtabs li.nav-item {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: .8rem;
+}
+
+ul.navtabs li.nav-item a {
+  color: #282c34;
+}
+
+ul.navtabs li.nav-item .active {
+  border-bottom: 1px solid #282c34;
+  border-bottom-width: thin;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
