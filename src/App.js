@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import About from './components/About';
+import NavTabs from './components/NavTabs';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -30,6 +31,7 @@ function App() {
                 <Contact/>
               </div>
               <div className="col-12 col-md-6" id="activePane">
+                <NavTabs/>
                 <Switch>
                     <Route exact path='/' component={Home}></Route>
                     <Route path='/Home' component={Home}></Route>                    
@@ -39,7 +41,7 @@ function App() {
               </div>
           </div>
         </div>
-        <div className="d-md-none">
+        <div className="d-md-none" id="mobileAppView">
             <div className="row" id="mobileTopPane">
               <div className="col-12 col-md-6">
                 <div id="themeToggle">
@@ -50,13 +52,16 @@ function App() {
             </div>
             <div>
             <div className="row">
-                <div className="col-12 col-md-6" id="activePane">
+                <div className="col-12 col-md-6">
+                  <NavTabs/>
+                  <div className="activePane">
                     <Switch>
                         <Route exact path='/' component={Home}></Route>
                         <Route path='/Home' component={Home}></Route>                    
                         <Route path='/About' component={About}></Route>    
                         <Route path='/Resume' component={Resume}></Route>                
                     </Switch>
+                  </div>
                 </div>
             </div>
           </div>

@@ -28,7 +28,7 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <div className="container h-100" id="contact">
+            <div className="container h-90" id="contact">
                 <div className="d-none d-sm-block my-md-5"> 
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-6 col-md-12 text-center my-3" id="imageHolder" >
@@ -52,7 +52,7 @@ export default class Contact extends Component {
                     </div>
                 </div>
                 <div className="row d-sm-none">
-                    <div className="col-12 my-3 p-4 text-center mobileContactContent">
+                    <div className="col-12 mt-3 p-4 text-center mobileContactContent">
                         <h3>Heather Barr</h3>
                         <p>[ she / her ]</p>
                         <div>

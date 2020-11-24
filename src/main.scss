@@ -51,7 +51,7 @@ ul.navtabsMobile {
     }
 }
 #mobileTopPane {
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 
 .overlay {
@@ -116,18 +116,24 @@ ul.navtabsMobile {
 #desktopContact {
     height: 80vh;
 }
+
+#mobileAppView .activePane  {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
 // overwriting bootstrap nav-tabs
 .nav-tabs {
     border-bottom: 1px solid $universalGrey !important;
     a {
         color: $universalGrey !important;
+        border: none;
     }
     .nav-item a:hover {
-        border-color: lighten($universalGrey, 10%) !important;
+        border: none !important;
     }
     .nav-link.active {
-        // color: $universalGrey !important;
         background-color: transparent !important;
-        border-color: lighten($universalGrey, 10%) !important;
+        border: none !important;
+        color: $universalYellow !important;
     }
 }

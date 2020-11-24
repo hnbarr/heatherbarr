@@ -7,7 +7,7 @@ export default class Home extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <NavTabs/>
+                        {/* <NavTabs/> */}
                     </div>
                     <h4 className="col-12 my-3">
                         I'm passionate about creating and nurturing inclusive and open environmenets everywhere I go. 

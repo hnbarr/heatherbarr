@@ -51,7 +51,7 @@ ul.navtabsMobile li.nav-item .active {
 }
 
 #mobileTopPane {
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
 }
 
 .overlay {
@@ -118,20 +118,27 @@ ul.navtabsMobile li.nav-item .active {
   height: 80vh;
 }
 
+#mobileAppView .activePane {
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
 .nav-tabs {
   border-bottom: 1px solid #767676 !important;
 }
 
 .nav-tabs a {
   color: #767676 !important;
+  border: none;
 }
 
 .nav-tabs .nav-item a:hover {
-  border-color: #909090 !important;
+  border: none !important;
 }
 
 .nav-tabs .nav-link.active {
   background-color: transparent !important;
-  border-color: #909090 !important;
+  border: none !important;
+  color: #DCB24D !important;
 }
 /*# sourceMappingURL=main.css.map */
