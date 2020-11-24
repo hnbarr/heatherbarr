@@ -4,6 +4,7 @@ body {
 
 $universalGrey: #767676;
 $universalPurple: #BB86FC;
+$universalYellow: #DCB24D;
 
 ul.navtabs {
     list-style-type: none;
@@ -47,5 +48,45 @@ ul.navtabsMobile {
     .nav-item {
         text-align: right;
         color: $universalGrey;
+    }
+}
+#mobileTopPane {
+    margin-bottom: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    color: $universalYellow;
+    width: 95%;
+    text-align: center;
+  }
+  
+#contactImage {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+
+@media(max-width: 767px){
+    #contactImage {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+// overwriting bootstrap nav-tabs
+.nav-tabs {
+    border-bottom: 1px solid $universalGrey !important;
+    a {
+        color: $universalGrey !important;
+    }
+    .nav-item a:hover {
+        border-color: lighten($universalGrey, 10%) !important;
+    }
+    .nav-link.active {
+        // color: $universalGrey !important;
+        background-color: transparent !important;
+        border-color: lighten($universalGrey, 10%) !important;
     }
 }

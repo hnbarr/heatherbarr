@@ -27,7 +27,7 @@ function App() {
               </div>
             </div>
             <div className="col-12 col-md-6">
-              <Contact />
+              <Contact/>
             </div>
             <div className="col-12 col-md-6" id="activePane">
               <Switch>

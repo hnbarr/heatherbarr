@@ -53,4 +53,46 @@ ul.navtabsMobile li.nav-item .active {
   text-align: right;
   color: #767676;
 }
+
+#mobileTopPane {
+  margin-bottom: 2rem;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: #DCB24D;
+  width: 95%;
+  text-align: center;
+}
+
+#contactImage {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+@media (max-width: 767px) {
+  #contactImage {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #767676 !important;
+}
+
+.nav-tabs a {
+  color: #767676 !important;
+}
+
+.nav-tabs .nav-item a:hover {
+  border-color: #909090 !important;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  border-color: #909090 !important;
+}
 /*# sourceMappingURL=main.css.map */
