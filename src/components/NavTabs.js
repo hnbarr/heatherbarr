@@ -6,9 +6,9 @@ export default class NavTabs extends Component {
 // d-none d-md-block
     render() {
         return (
-            // <div className="row">
+            // <div className="row w-100">
             //     <div className="col-12 col-md-6">
-                    <ul className="nav nav-tabs navtabs d-flex">
+                    <ul className="nav nav-tabs navtabs d-flex p-0">
                         <li className="nav-item mx-3 active">
                             <NavLink className="nav-link" activeClassName="active" to="/Home">Home</NavLink>
                         </li>
@@ -20,7 +20,7 @@ export default class NavTabs extends Component {
                         </li>
                     </ul>
             //     </div>
-            // </div>
+            //  </div>
         )
     }
 }

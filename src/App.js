@@ -31,7 +31,6 @@ function App() {
                 <Contact/>
               </div>
               <div className="col-12 col-md-6" id="activePane">
-                <NavTabs/>
                 <Switch>
                     <Route exact path='/' component={Home}></Route>
                     <Route path='/Home' component={Home}></Route>                    

@@ -6,8 +6,8 @@ export default class Resume extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-12">
-                        {/* <NavTabs/> */}
+                    <div className="d-none d-md-block col-12">
+                        <NavTabs/>
                     </div>
                     <div className="col-12 my-3">
                         <p>
