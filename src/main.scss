@@ -1,5 +1,5 @@
 body {
-    font-size: .85rem;
+    // font-size: .85rem;
 }
 
 $universalGrey: #767676;
@@ -62,19 +62,60 @@ ul.navtabsMobile {
     text-align: center;
   }
   
-#contactImage {
+#desktopContactImage {
     position: relative;
     width: 350px;
     height: 350px;
 }
 
 @media(max-width: 767px){
-    #contactImage {
+    #desktopContactImage {
         width: 250px;
         height: 250px;
     }
 }
 
+@media(max-width: 400px){
+    .nav-item {
+        margin: 0 auto !important;
+    }
+}
+.mobileContactContent {
+    height: 40vh;
+    opacity: .8;
+    font-size: 1rem;
+    background-image: url('./images/IMG_0046.jpeg');
+    // background-image: url('./images/IMG_2575.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    #socialLinks {
+        a {
+            padding: .3rem;
+            color: white;
+            font-size: 2rem;
+        }
+    }
+}
+#mobileContactImage {
+    opacity: .3;
+}
+
+#socialLinks {
+    margin: 0 auto;
+    a {
+        color: $universalYellow;
+        font-size: 1.2rem;
+    }
+}
+
+#contact {
+    margin: auto;
+}
+
+#desktopContact {
+    height: 80vh;
+}
 // overwriting bootstrap nav-tabs
 .nav-tabs {
     border-bottom: 1px solid $universalGrey !important;

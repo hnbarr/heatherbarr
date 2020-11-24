@@ -14,8 +14,10 @@ export default class Home extends Component {
                     </h4>
                     <div className="col-12">
                         <p>
-                        I love when I have the opportunity to work along a great team that share common goals and values with me. 
-                        I love building relationships with my peers as well as contributing to any and all improvement.
+                        Work alongside a great team that communicates openly, shares thoghts and values is and will always 
+                        be the ultimate goal for me. I'm sure the majority of other people feel the same way. I love building relationships 
+                        with my peers as well as contributing to any and all improvement and helping in any way necessary! 
+                        I believe in people-first everything and live by that message daily. 
                         </p>
                         <p>
                         Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 

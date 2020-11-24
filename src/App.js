@@ -26,17 +26,17 @@ function App() {
                 <i className="fa fa-adjust" onClick={themeToggler}></i>
               </div>
             </div>
-            <div className="col-12 col-md-6">
-              <Contact/>
-            </div>
-            <div className="col-12 col-md-6" id="activePane">
-              <Switch>
-                  <Route exact path='/' component={Home}></Route>
-                  <Route path='/Home' component={Home}></Route>                    
-                  <Route path='/About' component={About}></Route>    
-                  <Route path='/Resume' component={Resume}></Route>                
-              </Switch>
-            </div>
+              <div className="col-12 col-md-6" id="desktopContact">
+                <Contact/>
+              </div>
+              <div className="col-12 col-md-6" id="activePane">
+                <Switch>
+                    <Route exact path='/' component={Home}></Route>
+                    <Route path='/Home' component={Home}></Route>                    
+                    <Route path='/About' component={About}></Route>    
+                    <Route path='/Resume' component={Resume}></Route>                
+                </Switch>
+              </div>
           </div>
         </div>
         <div className="d-md-none">
