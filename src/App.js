@@ -20,7 +20,7 @@ function App() {
     <>
     <GlobalStyles/>
     <BrowserRouter>
-        <div className="d-none d-md-block">
+        <div className="d-none d-md-block container-fluid">
           <div className="row">
             <div className="col-12">
               <div id="themeToggle">
@@ -40,7 +40,7 @@ function App() {
               </div>
           </div>
         </div>
-        <div className="d-md-none" id="mobileAppView">
+        <div className="d-md-none container-fluid" id="mobileAppView">
             <div className="row" id="mobileTopPane">
               <div className="col-12 col-md-6">
                 <div id="themeToggle">

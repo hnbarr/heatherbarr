@@ -52,8 +52,8 @@ export default class Contact extends Component {
                     </div>
                 </div>
                 <div className="row d-sm-none">
-                    <div className="col-12 mt-3 p-4 text-center mobileContactContent">
-                        <h3>Heather Barr</h3>
+                    <div className="col-12 mt-1 p-4 text-center mobileContactContent">
+                        <h3 className="mt-1">Heather Barr</h3>
                         <p>[ she / her ]</p>
                         <div>
                             <h6>Commnuity Moderator @ BigCommerce</h6>
