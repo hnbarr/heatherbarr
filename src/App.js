@@ -20,23 +20,26 @@ function App() {
     <>
     <GlobalStyles/>
     <BrowserRouter>
-        <div className="d-none d-md-block container-fluid">
+        <div className="d-none d-md-block container-fluid" id="desktopAppView">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 d-print-none">
               <div id="themeToggle">
                 <i className="fa fa-adjust" onClick={themeToggler}></i>
               </div>
             </div>
-              <div className="col-12 col-md-6" id="desktopContact">
+              <div className="col-12 col-md-6 d-print-none" id="desktopContact">
                 <Contact/>
               </div>
-              <div className="col-12 col-md-6" id="activePane">
-                <Switch>
-                    <Route exact path='/' component={Home}></Route>
-                    <Route path='/Home' component={Home}></Route>                    
-                    <Route path='/About' component={About}></Route>    
-                    <Route path='/Resume' component={Resume}></Route>                
-                </Switch>
+              <div className="col-12 col-md-6">
+              <NavTabs />
+                <div id="activePane">
+                  <Switch>
+                      <Route exact path='/' component={Home}></Route>
+                      <Route path='/Home' component={Home}></Route>                    
+                      <Route path='/About' component={About}></Route>    
+                      <Route path='/Resume' component={Resume}></Route>                
+                  </Switch>
+                </div>
               </div>
           </div>
         </div>
@@ -53,7 +56,7 @@ function App() {
             <div className="row">
                 <div className="col-12 col-md-6">
                   <NavTabs/>
-                  <div className="activePane">
+                  <div id="activePane">
                     <Switch>
                         <Route exact path='/' component={Home}></Route>
                         <Route path='/Home' component={Home}></Route>                    

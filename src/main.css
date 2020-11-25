@@ -118,7 +118,20 @@ ul.navtabsMobile li.nav-item .active {
   height: 80vh;
 }
 
-#mobileAppView .activePane {
+#desktopAppView #activePane {
+  max-height: 85vh;
+  overflow-y: scroll;
+}
+
+.resumeLink {
+  color: #DCB24D;
+}
+
+.resumeLink:hover {
+  color: #a37d20 !important;
+}
+
+#mobileAppView #activePane {
   max-height: 50vh;
   overflow-y: scroll;
 }

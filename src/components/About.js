@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
-import NavTabs from './NavTabs';
 
 export default class About extends Component {
     render() {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="d-none d-md-block col-12">
-                        <NavTabs/>
-                    </div>
                     <div className="col-12 my-3">
                         <p>
                         Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
