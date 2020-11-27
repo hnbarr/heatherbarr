@@ -10,7 +10,7 @@ export default class Resume extends Component {
                     <div className="col-12 my-3">
                         <section className="alert alert-warning text-center">
                             <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to 
-                            <Link className="siteLink" to={CurrentResume} target="_blank" download> download my resume!</Link></p>
+                            <Link className="siteLink" to={CurrentResume} target="_blank" download> <b>download my resume!</b></Link></p>
                         </section>
                         <h5>BigCommerce</h5>
                         <div>

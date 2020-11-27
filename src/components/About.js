@@ -30,7 +30,7 @@ export default class About extends Component {
                         <hr />
                         <section className="alert alert-warning">
                             <p className="text-center">If you would like to connect about your personal or professional journey or help us with our community volunteer work, 
-                            &nbsp;<a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!">reach out and let's talk</a>! I love to hear new stories and meet new people & we can always use some help! 
+                            &nbsp;<a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b>reach out and let's talk</b></a>! I love to hear new stories and meet new people & we can always use some help! 
                             </p>
                             {/* <hr /> */}
                         </section>

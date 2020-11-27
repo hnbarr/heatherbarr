@@ -1,10 +1,12 @@
-body {
-    // font-size: .85rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 $universalGrey: #767676;
 $universalPurple: #BB86FC;
 $universalYellow: #DCB24D;
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
 
 ul.navtabs {
     list-style-type: none;
