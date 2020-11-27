@@ -22,8 +22,8 @@ export default class About extends Component {
                         </p>
                         <p>
                             A great friend of mine & I have started a local community volunteer group to feed and provide necessities for people who are in need. 
-                            We started this during the fall holiday season in 2020 to provide homecooked Thanksgiving meals for those who may have gone without. From there we took off like 
-                            wildfire as we both wanted to do more, not only for holidays but for all the time! 
+                            We started this during the fall holiday season in 2020 to provide homecooked Thanksgiving meals for those who may have gone without. After that, 
+                            we both wanted to stay consistent in doing more, not only for holidays but for all the time! 
                             {/* <br /> */}
                             {/* For more information on our goals and actions, <Link to="www.google.com" className="siteLink" target="_blank">check out our site!</Link> */}
                         </p>
