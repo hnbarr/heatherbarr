@@ -8,19 +8,18 @@ export default class Resume extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-12 my-3">
-                        <section className="alert alert-secondary">
-                            <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to download the pdf below!</p>
-                            <p>
-                                <Link className="resumeLink" to={CurrentResume} target="_blank" download>Download</Link></p>
-                                {/* <a className="resumeLink" href="../images/CurrentResume.pdf" download>Download Resume</a></p> */}
+                        <section className="alert alert-warning text-center">
+                            <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to 
+                            <Link className="siteLink" to={CurrentResume} target="_blank" download> download my resume!</Link></p>
                         </section>
                         <h5>BigCommerce</h5>
                         <div>
                             <span><b>Community Moderator</b>&nbsp;<small><i>2020-Current</i></small></span>
                             <p className="px-2">
-                               I just started this role! So I will be completing this seciton as I carry on my relatinship with BigCommerce! 
+                               I just started this role, so I will be completing this seciton as I carry on my relatinship with BigCommerce! Super excited for this journey!
                             </p>
                         </div>
+                        <hr />
                         <h5>Clarity Ventures</h5>
                         <div>
                             <span><b>Jr. Front End Developer</b>&nbsp;<small><i>2019-2020 (1 year)</i></small></span>
@@ -33,6 +32,7 @@ export default class Resume extends Component {
                                 Workflows through Azure sprints, utilizing scrum practices, completing front end related tickets, logging time, communicating with fellow devs, PMs, and management daily.
                             </p>
                         </div>
+                        <hr />
                         <h5>Visa</h5>
                         <div>
                             <span><b>Client Services Representative - CSR</b>&nbsp;<small><i>2018 (8 months)</i></small></span>
@@ -40,6 +40,7 @@ export default class Resume extends Component {
                                 Providing phone support to cardholders nationwide. Working in multiple programs and applications to find solutions and resolve problems for cardholders. Only three months after initial on boarding training, I was able to train for other products to assist with additional card programs. Visa has a wonderful environment, which is something that I will definitely seek in all future career moves. I then went to serve tables while in school to become a developer.
                             </p>
                         </div>
+                        <hr />
                         <h5>Yodle / Web.com</h5>
                         <div>
                             <span><b>Sales Representative</b>&nbsp;<small><i>2017 (1 year)</i></small></span>
@@ -63,6 +64,7 @@ export default class Resume extends Component {
                                 </ul>
                             </p>
                         </div>
+                        <hr />
                         <h5>Times Square Vape Lab (T.S.V.L LLC)</h5>
                         <div><span><b>Retail Sales Member</b>&nbsp;<small><i>2013-2014 (9 months)</i></small></span>
                             <p className="px-2"> 

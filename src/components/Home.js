@@ -6,24 +6,22 @@ export default class Home extends Component {
             <div className="container">
                 <div className="row">
                     <h4 className="col-12 my-3">
-                        I'm passionate about creating and nurturing inclusive and open environmenets everywhere I go. 
+                        I'm passionate about creating inclusive environments everywhere I go. 
                     </h4>
                     <div className="col-12">
                         <p>
-                        Work alongside a great team that communicates openly, shares thoghts and values is and will always 
-                        be the ultimate goal for me. I'm sure the majority of other people feel the same way. I love building relationships 
-                        with my peers as well as contributing to any and all improvement and helping in any way necessary! 
-                        I believe in people-first everything and live by that message daily. 
+                            To work alongside a great team that communicates openly, shares thoughts and values is and will always 
+                            be the ultimate career goal for me. I love building relationships with my peers as well as contributing to acheive any and all goals. 
+                            I believe in people-first everything and live by that message daily. 
                         </p>
                         <p>
-                        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
-                        The passage is attributed to an unknown typesetter in the 15th century 
-                        who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. 
+                            Being fresh in my career means ...
                         </p>
                         <p>
-                        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
-                        The passage is attributed to an unknown typesetter in the 15th century 
-                        who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. 
+                            Being people first means ...   
+                        </p>
+                        <p>
+                            Being a friend and ally for my comminuty means ...
                         </p>
                     </div>
                 </div>

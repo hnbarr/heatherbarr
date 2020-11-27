@@ -123,11 +123,21 @@ ul.navtabsMobile li.nav-item .active {
   overflow-y: scroll;
 }
 
-.resumeLink {
+hr {
+  background-color: #767676 !important;
+}
+
+@media print {
+  #desktopAppView #activePane {
+    max-height: auto;
+  }
+}
+
+.siteLink {
   color: #DCB24D;
 }
 
-.resumeLink:hover {
+.siteLink:hover {
   color: #a37d20 !important;
 }
 

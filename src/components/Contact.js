@@ -13,16 +13,16 @@ export default class Contact extends Component {
         super(props)
     
         this.state = {
-            images: [OasisSm, ZionSm, GreyScaleSM, CatsSM, NolaSm], 
+            roundImages: [OasisSm, ZionSm, GreyScaleSM, CatsSM, NolaSm], 
             mobileImages: [ZionLg, NolaLg],
-            activeImage: GreyScaleSM,
+            roundImage: CatsSM,
             mobileImage: ZionLg
         }
     }
     
     imageToggler = () => {
         this.setState({
-            activeImage: this.state.images[Math.floor(Math.random() * Math.floor(this.state.images.length))]
+            roundImage: this.state.roundImages[Math.floor(Math.random() * Math.floor(this.state.roundImages.length))]
         })
     }
 
@@ -32,7 +32,7 @@ export default class Contact extends Component {
                 <div className="d-none d-sm-block my-md-5"> 
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-6 col-md-12 text-center my-3" id="imageHolder" >
-                            <img src={this.state.activeImage} id="desktopContactImage" alt="profile"/> 
+                            <img src={this.state.roundImage} id="desktopContactImage" alt="profile"/> 
                             <div className="overlay"><i className="fas fa-sync-alt" onClick={this.imageToggler}></i></div>                    
                         </div>
                         <div className="col-6 col-md-12 text-center contactContent">
@@ -40,7 +40,7 @@ export default class Contact extends Component {
                             <p>[ she / her ]</p>
                             <div>
                                 <h6>Commnuity Moderator @ BigCommerce</h6>
-                                <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Friend, Daughter</p>
+                                <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Daughter, Friend</p>
                             </div>
                             <div className="d-flex justify-content-between w-50" id="socialLinks">
                                 <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>

@@ -122,10 +122,18 @@ ul.navtabsMobile {
     overflow-y: scroll;
 }
 
-.resumeLink {
+hr {
+    background-color: $universalGrey !important;
+}
+@media print {
+    #desktopAppView #activePane  {
+        max-height: auto;
+    }
+}
+.siteLink {
     color: $universalYellow;
 }
-.resumeLink:hover {
+.siteLink:hover {
     color: darken($universalYellow, 20%) !important;
 }
 
