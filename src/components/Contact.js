@@ -42,7 +42,7 @@ export default class Contact extends Component {
                                 <h6>Commnuity Moderator @ BigCommerce</h6>
                                 <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Daughter, Friend</p>
                             </div>
-                            <div className="d-flex justify-content-between w-50" id="socialLinks">
+                            <div className="d-flex justify-content-between w-50 px-2" id="socialLinks">
                                 <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>
                                 <a rel="external" href="https://angel.co/u/hnbarr"><i className="fab fa-angellist"></i></a>
                                 <a rel="external" href="https://github.com/hnbarr"><i className="fab fa-github"></i></a>
@@ -51,15 +51,15 @@ export default class Contact extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row d-sm-none">
-                    <div className="col-12 mt-1 p-4 text-center mobileContactContent">
+                <div className="row d-sm-none mobileContact p-2 d-flex-row align-items-center">
+                    <div className="col-10 offset-1 d-flex-row align-items-center justify-content-center text-center content p-2">
                         <h3 className="mt-1">Heather Barr</h3>
                         <p>[ she / her ]</p>
                         <div>
                             <h6>Commnuity Moderator @ BigCommerce</h6>
                             <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Friend, Daughter</p>
                         </div>
-                        <div className="d-flex justify-content-between w-90" id="socialLinks">
+                        <div className="d-flex justify-content-between w-90 px-2" id="socialLinks">
                             <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>
                             <a rel="external" href="https://angel.co/u/hnbarr"><i className="fab fa-angellist"></i></a>
                             <a rel="external" href="https://github.com/hnbarr"><i className="fab fa-github"></i></a>

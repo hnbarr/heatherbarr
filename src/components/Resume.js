@@ -49,20 +49,20 @@ export default class Resume extends Component {
                             </p>
                             <p className="px-2">
                             Accomplishments for Yodle;
+                            </p>
                                 <ul>
                                     <li>#1 Sales Rep. June in Essentials Sales.</li>
                                     <li>#1 Sales Rep. July in Essentials Sales.</li>
                                 </ul>
-                            </p>
                             <p className="px-2">
                             After my success with Yodle, Web.com acquired the company and led me to being one of 7 reps in a Sales Lab for a new Web.com product. While in this sales lab, I lead the team in deals and carried us to our goals. The position I had at Yodle and Web.com played a major part in who I am today.
                             </p>
                             <p className="px-2">
                             Accomplishments for Web.com;
+                            </p>
                                 <ul>
                                     <li>#1 Sales Rep. Web.com sales lab for 2 months</li>
                                 </ul>
-                            </p>
                         </div>
                         <hr />
                         <h5>Times Square Vape Lab (T.S.V.L LLC)</h5>

@@ -82,20 +82,31 @@ ul.navtabsMobile {
         margin: 0 auto !important;
     }
 }
-.mobileContactContent {
-    height: 40vh;
-    opacity: .8;
-    font-size: 1rem;
-    background-image: url('./images/IMG_0046.jpeg');
-    // background-image: url('./images/IMG_2575.jpeg');
-    background-size: cover;
-    background-position: center;
+
+@media (max-width:575px){
+    #mobileTopPane {
+        background-image: url('./images/IMG_0046.jpeg');
+        // background-image: url('./images/IMG_2575.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.mobileContact {
+    font-size: .9rem;
     color: white;
-    #socialLinks {
-        a {
-            padding: .3rem;
-            color: white;
-            font-size: 2rem;
+    min-height: fit-content;
+    border-radius: 8px;
+    .content {
+        height: fit-content;
+        background-color: darken($universalGrey, 40%);
+        opacity: .6;
+        border-radius: 8px;
+        #socialLinks {
+            a {
+                color: white;
+                font-size: 2rem;
+            }
         }
     }
 }

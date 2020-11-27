@@ -27,7 +27,6 @@ export default class About extends Component {
                             {/* <br /> */}
                             {/* For more information on our goals and actions, <Link to="www.google.com" className="siteLink" target="_blank">check out our site!</Link> */}
                         </p>
-                        <hr />
                         <section className="alert alert-warning">
                             <p className="text-center">If you would like to connect about your personal or professional journey or help us with our community volunteer work, 
                             &nbsp;<a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b>reach out and let's talk</b></a>! I love to hear new stories and meet new people & we can always use some help! 

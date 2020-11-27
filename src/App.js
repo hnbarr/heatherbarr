@@ -56,7 +56,7 @@ function App() {
             <div className="row">
                 <div className="col-12 col-md-6">
                   <NavTabs/>
-                  <div id="activePane">
+                  <div id="activePane" className="mb-2">
                     <Switch>
                         <Route exact path='/' component={Home}></Route>
                         <Route path='/Home' component={Home}></Route>                    

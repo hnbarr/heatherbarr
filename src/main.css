@@ -86,18 +86,33 @@ ul.navtabsMobile li.nav-item .active {
   }
 }
 
-.mobileContactContent {
-  height: 40vh;
-  opacity: .8;
-  font-size: 1rem;
-  background-image: url("./images/IMG_0046.jpeg");
-  background-size: cover;
-  background-position: center;
-  color: white;
+@media (max-width: 575px) {
+  #mobileTopPane {
+    background-image: url("./images/IMG_0046.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
 }
 
-.mobileContactContent #socialLinks a {
-  padding: .3rem;
+.mobileContact {
+  font-size: .9rem;
+  color: white;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  border-radius: 8px;
+}
+
+.mobileContact .content {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #101010;
+  opacity: .6;
+  border-radius: 8px;
+}
+
+.mobileContact .content #socialLinks a {
   color: white;
   font-size: 2rem;
 }
