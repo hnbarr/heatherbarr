@@ -21,14 +21,14 @@ export default class About extends Component {
                             hiking somewhere, getting involved with my community or seeing new places in the world. 
                         </p>
                         <p>
-                            A great friend of mine & I have started a local community volunteer group to feed and provide necessities for people who are in need. 
+                            {/* A great friend of mine & I have started a local community volunteer group to feed and provide necessities for people who are in need. 
                             We started this during the fall holiday season in 2020 to provide homecooked Thanksgiving meals for those who may have gone without. After that, 
-                            we both wanted to stay consistent in doing more, not only for holidays but for all the time! 
+                            we both wanted to stay consistent in doing more, not only for holidays but for all the time!  */}
                             {/* <br /> */}
                             {/* For more information on our goals and actions, <Link to="www.google.com" className="siteLink" target="_blank">check out our site!</Link> */}
                         </p>
                         <section className="alert alert-warning">
-                            <p className="text-center">If you would like to connect about your personal or professional journey or help us with our community volunteer work, 
+                            <p className="text-center">If you would like to connect about your personal or professional journey, 
                             &nbsp;<a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b>reach out and let's talk</b></a>! I love to hear new stories and meet new people & we can always use some help! 
                             </p>
                             {/* <hr /> */}
