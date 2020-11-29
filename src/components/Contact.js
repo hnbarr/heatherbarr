@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import GreyScaleSM from '../images/IMG_1505.png'
 import ZionSm from '../images/IMG_0046.png'
+import ProfileSm from '../images/Untitled.png'
 import OasisSm from '../images/IMG_1813.png'
 import CatsSM from '../images/IMG_3423.png'
 import NolaSm from '../images/IMG_2575.png'
@@ -13,9 +14,9 @@ export default class Contact extends Component {
         super(props)
     
         this.state = {
-            roundImages: [OasisSm, ZionSm, GreyScaleSM, CatsSM, NolaSm], 
+            roundImages: [OasisSm, ZionSm, GreyScaleSM, CatsSM, NolaSm, ProfileSm], 
             mobileImages: [ZionLg, NolaLg],
-            roundImage: CatsSM,
+            roundImage: ProfileSm,
             mobileImage: ZionLg
         }
     }
@@ -31,9 +32,9 @@ export default class Contact extends Component {
             <div className="container h-90" id="contact">
                 <div className="d-none d-sm-block my-md-4"> 
                     <div className="row d-flex justify-content-center align-items-center h-100">
-                        <div className="col-6 col-md-12 text-center my-3" id="imageHolder" >
+                        <div className="col-6 col-md-12 text-center d-flex justify-content-center my-3" onClick={this.imageToggler} id="imageHolder" >
                             <img src={this.state.roundImage} id="desktopContactImage" alt="profile"/> 
-                            <div className="overlay"><i className="fas fa-sync-alt" onClick={this.imageToggler}></i></div>                    
+                            <div className="overlay"><i className="fas fa-sync-alt"></i></div>                    
                         </div>
                         <div className="col-6 col-md-12 text-center contactContent">
                             <h3>Heather Barr</h3>

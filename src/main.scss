@@ -8,6 +8,14 @@ body {
     font-family: 'Raleway', sans-serif !important;
 }
 
+span b {
+    color: lighten($universalGrey, 5%);
+}
+
+h5 {
+    color: $universalYellow;
+}
+
 ul.navtabs {
     list-style-type: none;
     li.nav-item{
@@ -59,7 +67,9 @@ ul.navtabsMobile {
 .overlay {
     position: absolute;
     bottom: 0;
-    color: $universalYellow;
+    opacity: .7;
+    margin: 0 auto;
+    color: white;
     width: 95%;
     text-align: center;
   }
@@ -68,6 +78,8 @@ ul.navtabsMobile {
     position: relative;
     width: 350px;
     height: 350px;
+    border-radius: 50%;
+    // box-shadow: 1px 3px 8px 2px darken($universalGrey, 5%);
 }
 
 @media(max-width: 767px){

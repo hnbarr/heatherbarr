@@ -7,7 +7,7 @@ export default class About extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-12 my-3">
-                        <h4> Hey y'all!</h4>
+                        <h4><b>Hey y'all!</b></h4>
                         <p>
                             Nice to meet you, I'm Heather! I am a small-town-East-Texas girl who moved to Austin back in 2016 on a whim to find success and opportunity. 
                             I absolutely love it here in Austin and found that I reached my goal in finding the industry that aligns with my personality and desires.

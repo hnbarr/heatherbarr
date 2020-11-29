@@ -3,6 +3,14 @@ body {
   font-family: 'Raleway', sans-serif !important;
 }
 
+span b {
+  color: #838383;
+}
+
+h5 {
+  color: #DCB24D;
+}
+
 ul.navtabs {
   list-style-type: none;
 }
@@ -62,7 +70,9 @@ ul.navtabsMobile li.nav-item .active {
 .overlay {
   position: absolute;
   bottom: 0;
-  color: #DCB24D;
+  opacity: .7;
+  margin: 0 auto;
+  color: white;
   width: 95%;
   text-align: center;
 }
@@ -71,6 +81,7 @@ ul.navtabsMobile li.nav-item .active {
   position: relative;
   width: 350px;
   height: 350px;
+  border-radius: 50%;
 }
 
 @media (max-width: 767px) {

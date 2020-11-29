@@ -6,7 +6,7 @@ export default class Home extends Component {
             <div className="container">
                 <div className="row">
                     <h4 className="col-12 my-3">
-                        I'm passionate about creating inclusive environments everywhere I go! 
+                        <b>I'm passionate about creating inclusive environments everywhere I go!</b> 
                     </h4>
                     <div className="col-12">
                         <p>
