@@ -79,15 +79,14 @@ ul.navtabsMobile {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    // box-shadow: 1px 3px 8px 2px darken($universalGrey, 5%);
 }
 
-@media(max-width: 767px){
-    #desktopContactImage {
-        width: 250px;
-        height: 250px;
-    }
-}
+// @media(max-width: 767px){
+//     #desktopContactImage {
+//         width: 250px;
+//         height: 250px;
+//     }
+// }
 
 @media(max-width: 400px){
     .nav-item {
@@ -95,10 +94,15 @@ ul.navtabsMobile {
     }
 }
 
-@media (max-width:575px){
+@media(min-width: 475px) and (max-width: 769px) {
+    #mobileTopPane {
+        background-size: auto;
+    }
+}
+
+@media (max-width: 769px){
     #mobileTopPane {
         background-image: url('./images/IMG_0046.jpeg');
-        // background-image: url('./images/IMG_2575.jpeg');
         background-size: cover;
         background-position: center;
     }

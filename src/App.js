@@ -27,10 +27,10 @@ function App() {
                 <i className="fa fa-adjust" onClick={themeToggler}></i>
               </div>
             </div>
-              <div className="col-12 col-sm-6 d-print-none" id="desktopContact">
+              <div className="col-12 col-md-6 d-print-none" id="desktopContact">
                 <Contact/>
               </div>
-              <div className="col-12 col-sm-6">
+              <div className="col-12 col-md-6">
               <NavTabs />
                 <div id="activePane">
                   <Switch>

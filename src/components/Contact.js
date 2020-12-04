@@ -30,7 +30,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div className="container h-90" id="contact">
-                <div className="d-none d-sm-block my-md-4"> 
+                <div className="d-none d-md-block my-md-4"> 
                     <div className="row d-flex justify-content-center align-items-center h-100">
                         <div className="col-6 col-md-12 text-center d-flex justify-content-center my-3" onClick={this.imageToggler} id="imageHolder" >
                             <img src={this.state.roundImage} id="desktopContactImage" alt="profile"/> 
@@ -52,7 +52,7 @@ export default class Contact extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row d-sm-none mobileContact p-2 d-flex-row align-items-center">
+                <div className="row d-md-none mobileContact p-2 d-flex-row align-items-center">
                     <div className="col-10 offset-1 d-flex-row align-items-center justify-content-center text-center content p-2">
                         <h3 className="mt-1">Heather Barr</h3>
                         <p>[ she / her ]</p>
