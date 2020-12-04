@@ -5,7 +5,7 @@ import HeatherBarrResume from '../images/HeatherBarrResume.pdf'
 export default class Resume extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 my-3">
                         <section className="alert alert-warning text-center">
