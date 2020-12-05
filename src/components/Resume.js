@@ -16,7 +16,7 @@ export default class Resume extends Component {
                         <div>
                             <span><b>Community Moderator</b>&nbsp;<small><i>2020-Current</i></small></span>
                             <p className="px-2">
-                               I just started this role, so I will be completing this seciton as I carry on my relatinship with BigCommerce! Super excited for this journey!
+                               I just started this role, so I will be completing this seciton as I carry on my relationship with BigCommerce! Super excited for this journey!
                             </p>
                         </div>
                         <hr />
