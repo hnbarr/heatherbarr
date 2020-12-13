@@ -57,7 +57,7 @@ export default class Contact extends Component {
                         <h3 className="mt-1">Heather Barr</h3>
                         <p>[ she / her ]</p>
                         <div>
-                            <h6>Commnuity Moderator @ BigCommerce</h6>
+                            <h6>Developer Commnuity Moderator @ BigCommerce</h6>
                             <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Friend, Daughter</p>
                         </div>
                         <div className="d-flex justify-content-between w-90 px-2" id="socialLinks">
