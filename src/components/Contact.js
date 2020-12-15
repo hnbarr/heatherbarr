@@ -16,7 +16,7 @@ export default class Contact extends Component {
         this.state = {
             roundImages: [OasisSm, ZionSm, GreyScaleSM, CatsSM, NolaSm, ProfileSm], 
             mobileImages: [ZionLg, NolaLg],
-            roundImage: ProfileSm,
+            roundImage: CatsSM,
             mobileImage: ZionLg
         }
     }
