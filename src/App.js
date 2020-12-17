@@ -5,6 +5,7 @@ import { GlobalStyles } from "./components/GlobalStyles";
 import { lightTheme, darkTheme } from "./components/Theme"
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Media from './components/Media';
 import Resume from './components/Resume';
 import About from './components/About';
 import NavTabs from './components/NavTabs';
@@ -37,7 +38,8 @@ function App() {
                       <Route exact path='/' component={Home}></Route>
                       <Route path='/Home' component={Home}></Route>                    
                       <Route path='/About' component={About}></Route>    
-                      <Route path='/Resume' component={Resume}></Route>                
+                      <Route path='/History' component={Resume}></Route>                
+                      <Route path='/Media' component={Media}></Route>                
                   </Switch>
                 </div>
               </div>
@@ -61,7 +63,8 @@ function App() {
                         <Route exact path='/' component={Home}></Route>
                         <Route path='/Home' component={Home}></Route>                    
                         <Route path='/About' component={About}></Route>    
-                        <Route path='/Resume' component={Resume}></Route>                
+                        <Route path='/History' component={Resume}></Route> 
+                        <Route path='/Media' component={Media}></Route>                               
                     </Switch>
                   </div>
                 </div>
