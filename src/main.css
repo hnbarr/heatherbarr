@@ -194,4 +194,45 @@ hr {
   border: none !important;
   color: #DCB24D !important;
 }
+
+#MediaComponent .twitter-tweet {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 500px;
+}
+
+#MediaComponent .twitter-tweet .twitter-image {
+  min-width: 70px;
+  max-width: 70px;
+  min-height: 40px;
+  max-height: 40px;
+  margin-top: -5px;
+}
+
+#MediaComponent .twitter-tweet p {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+#MediaComponent .twitter-tweet a {
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+#MediaComponent .twitter-tweet a:hover,
+#MediaComponent .twitter-tweet a:focus {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=main.css.map */

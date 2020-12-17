@@ -186,3 +186,46 @@ hr {
         color: $universalYellow !important;
     }
 }
+
+#MediaComponent {
+    .twitter-tweet {
+        .twitter-image {
+            min-width: 70px;
+            max-width: 70px;
+            min-height: 40px;
+            max-height: 40px;
+            margin-top: -5px;
+        }
+        display: inline-block;
+        // font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 16px;
+        border-color: #eee #ddd #bbb;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+        margin: 10px 5px;
+        padding: 0 16px 16px 16px;
+        max-width: 500px;
+      }
+
+      
+      .twitter-tweet p {
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 20px;
+      }
+      .twitter-tweet a {
+        // color: inherit;
+        font-weight: normal;
+        text-decoration: none;
+        outline: 0 none;
+      }
+      
+      .twitter-tweet a:hover,
+      .twitter-tweet a:focus {
+        text-decoration: underline;
+      }
+}
