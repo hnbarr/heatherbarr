@@ -15,9 +15,21 @@ export default class Resume extends Component {
                         <h5>BigCommerce</h5>
                         <div>
                             <span><b>Developer Community Moderator</b>&nbsp;<small><i>2020-Current</i></small></span>
-                            <p className="px-2">
-                               I just started this role, so I will be completing this seciton as I carry on my relationship with BigCommerce! Super excited for this journey!
-                            </p>
+                            <div className="px-2">
+                                <p>
+                                    To brag about my company a bit, BigCommerce is disrupting the e-commerce industry as the SaaS 
+                                    leader for fast- growing, mid-market businesses. We enable our customers to build 
+                                    intuitive and engaging stores to support every stage of their growth!
+                                </p>
+                                <p>
+                                    As the Developer Community Moderator @ BigCommerce, I provide assistance and act as a resource 
+                                    to developers and partners participating in the Developer Community. Along other members in 
+                                    our community, I'm also a person that developers and partners talk to about errors or problems 
+                                    they may come across with their development! Overall, my main goal is to make sure that the 
+                                    Developer Community is thriving with engaging, helpful discussions and ensuring questions are 
+                                    getting answered with timely and thorough responses!
+                                </p>
+                            </div>
                         </div>
                         <hr />
                         <h5>Clarity Ventures</h5>
