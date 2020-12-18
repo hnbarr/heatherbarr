@@ -214,11 +214,12 @@ hr {
       
       .twitter-tweet p {
         font-size: 14px;
+        text-align: left;
         font-weight: normal;
         line-height: 20px;
       }
       .twitter-tweet a {
-        // color: inherit;
+        color: darken($universalYellow, 20%);
         font-weight: normal;
         text-decoration: none;
         outline: 0 none;
@@ -289,6 +290,11 @@ hr {
         }
         &__date{
         font-size: .85rem;
+        }
+    }
+    @media(min-width: 796px) {
+        .blog__post {
+            width: 70% !important;
         }
     }
 }

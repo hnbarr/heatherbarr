@@ -17,7 +17,7 @@ export default class NavTabs extends Component {
                     <NavLink className="nav-link" activeClassName="active" to="/History">History</NavLink>
                 </li>
                 <li className="nav-item mr-2">
-                    <NavLink className="nav-link" activeClassName="active" to="/Media">Media</NavLink>
+                    <NavLink className="nav-link" activeClassName="active" to="/Medium">Medium</NavLink>
                 </li>
             </ul>
         )

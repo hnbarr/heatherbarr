@@ -221,11 +221,13 @@ hr {
 
 #MediaComponent .twitter-tweet p {
   font-size: 14px;
+  text-align: left;
   font-weight: normal;
   line-height: 20px;
 }
 
 #MediaComponent .twitter-tweet a {
+  color: #a37d20;
   font-weight: normal;
   text-decoration: none;
   outline: 0 none;
@@ -309,5 +311,11 @@ hr {
 
 #blog .blog__date {
   font-size: .85rem;
+}
+
+@media (min-width: 796px) {
+  #blog .blog__post {
+    width: 70% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
