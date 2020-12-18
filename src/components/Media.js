@@ -6,9 +6,8 @@ export default class Media extends Component {
         fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@hnbarr')
         .then((res) => res.json())
         .then((data) => {
-        // Filter for acctual posts. Comments don't have categories, therefore can filter for items with categories bigger than 0
-        const res = data.items //This is an array with the content. No feed, no info about author etc..
-        const posts = res.filter(item => item.categories.length > 0) // That's the main trick* !
+        const res = data.items 
+        const posts = res.filter(item => item.categories.length > 0)
     
         // Functions to create a short text out of whole blog's content
         function toText(node) {
@@ -23,7 +22,7 @@ export default class Media extends Component {
             text
         }
     
-        // TODO: Convert to repeat in div below!
+        // TODO: Convert to repeat in div below, look at Standup for inspo!
         let output = '';
         posts.forEach((item) => {
             output += `
@@ -51,12 +50,10 @@ export default class Media extends Component {
 
     render() {
         return (
-            <section id="blog" className="blog">
-                <div className="blog__header">
-                    <h2 className="blog__header2">Medium</h2>
-                </div>
-                <ul className="blog__slider"></ul>
-            </section>
+            <div id="blog" className="blog">
+                <ul className="blog__slider my-3"></ul>
+                {/* <div className="d-md-none">tewt</div> */}
+            </div>
         )
     }
 }

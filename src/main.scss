@@ -245,21 +245,9 @@ hr {
         margin: 0 auto;
         padding: 2rem;
         align-items: center;
-        &__header{
-        text-align: center;
-        }
-        &__header2{
-        margin-top: .3rem;
-        font-size: 1.4rem;
-        font-weight: 500;
-        }
-        &__header2Span{
-        font-weight: 400;
-        font-size: 1.25rem;
-        }
         &__post{
         margin: 0 auto;
-        width: 95%;
+        width: 90%;
         -webkit-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
         -moz-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
         box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
@@ -294,7 +282,19 @@ hr {
     }
     @media(min-width: 796px) {
         .blog__post {
-            width: 70% !important;
+            width: 80% !important;
+        }
+    }
+    @media(min-width: 1090px) {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            li {
+                flex: 0 0 45%;
+            }
+        }
+        .blog__post {
+            width: 40% !important;
         }
     }
 }

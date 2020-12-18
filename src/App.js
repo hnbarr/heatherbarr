@@ -39,7 +39,7 @@ function App() {
                       <Route path='/Home' component={Home}></Route>                    
                       <Route path='/About' component={About}></Route>    
                       <Route path='/History' component={Resume}></Route>                
-                      <Route path='/Medium' component={Media}></Route>                
+                      <Route path='/Stories' component={Media}></Route>                
                   </Switch>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function App() {
                         <Route path='/Home' component={Home}></Route>                    
                         <Route path='/About' component={About}></Route>    
                         <Route path='/History' component={Resume}></Route> 
-                        <Route path='/Medium' component={Media}></Route>                               
+                        <Route path='/Stories' component={Media}></Route>                               
                     </Switch>
                   </div>
                 </div>
