@@ -23,6 +23,8 @@ export default class Media extends Component {
         }
     
         // TODO: Convert to repeat in div below, look at Standup for inspo!
+        // TODO: Add functionality to only display 4 articles at a time
+        // TODO: Add cool shuffler to randomize order/preivew
         let output = '';
         posts.forEach((item) => {
             output += `

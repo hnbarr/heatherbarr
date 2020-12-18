@@ -298,6 +298,13 @@ hr {
   font-size: .85rem;
 }
 
+#blog .blog__post {
+  border-radius: 8px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 @media (min-width: 796px) {
   #blog .blog__post {
     width: 80% !important;

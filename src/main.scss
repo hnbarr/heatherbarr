@@ -279,6 +279,10 @@ hr {
         &__date{
         font-size: .85rem;
         }
+        &__post {
+            border-radius: 8px;
+            height: fit-content
+        }
     }
     @media(min-width: 796px) {
         .blog__post {
