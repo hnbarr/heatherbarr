@@ -52,7 +52,10 @@ export default class Media extends Component {
         return (
             <div id="blog" className="blog">
                 <ul className="blog__slider my-3"></ul>
-                {/* <div className="d-md-none">tewt</div> */}
+                <div className="d-md-none">
+                <p>Coming Soon! 🙌🏼 </p>
+                <p>Viewable now on desktop</p>   
+                </div>
             </div>
         )
     }
