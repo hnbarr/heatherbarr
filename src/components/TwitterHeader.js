@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import twitter from '../images/Untitled.png'
+import ProfileSm from '../images/Untitled.png'
+import OasisSm from '../images/IMG_1813.png'
+import CatsSM from '../images/IMG_3423.png'
+import NolaSm from '../images/IMG_2575.png'
 
 export default class TwitterHeader extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
-             twitterImg: twitter
+             twitterImg: ProfileSm,
+             images: [OasisSm, ZionSm, GreyScaleSM, CatsSM, NolaSm, ProfileSm]
         }
     }
 
