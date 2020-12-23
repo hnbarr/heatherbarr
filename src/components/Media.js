@@ -48,12 +48,12 @@ constructor(props) {
                                     </div>
                                     <div className="blog__content">
                                         <div className="blog_preview">
-                                            <p className="blog__intro">{this.shortenText(this.toText(post.description), 0, 100)}</p>
+                                            <p className="blog__intro">{this.shortenText(this.toText(post.description), 0, 150)}</p>
                                         </div>
                                         <hr />
                                         <div className="blog__info mb-2">
                                             <span className="blog__author">{post.author}</span>
-                                            <span className="blog__date">{post.pubDate}</span>
+                                            {/* <span className="blog__date">{post.pubDate}</span> */}
                                         </div>
                                     </div>
                                 </a>
