@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-// import HeatherBarrResume from '../images/HeatherBarrResume.pdf'
 import HeatherBarr_Resume from '../images/HeatherBarr_Resume.pdf'
 
 
