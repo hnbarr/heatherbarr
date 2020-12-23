@@ -36,15 +36,15 @@ constructor(props) {
 
     render() {
         return (
-            <div id="blog" className="blog m-0">
-                <div className="blog__slider my-3 row m-0 d-flex justify-content-between">
+            <div id="blog" className="blog container">
+                <div className="blog__slider my-3 row m-0 d-flex justify-content-center">
                     {this.state.posts.slice(0,3).map((post, i)=>{
                         return (
-                            <div key={i} className="blog__post col-10 col-md-8 col-xl-3 my-3">
+                            <div key={i} className="blog__post col m-4 m-sm-3 m-md-2">
                                 <a href={post.link}>
                                     <div className="text-center">
                                         <img alt={post.title} src={post.thumbnail} className="blog__topImg"></img>
-                                        <h2 className="blog__title">{post.title+ '...'}</h2>
+                                        <h2 className="blog__title">{this.shortenText(this.toText(post.title), 0, 25)+ '...'}</h2>
                                     </div>
                                     <div className="blog__content">
                                         <div className="blog_preview">
