@@ -17,7 +17,7 @@ constructor(props) {
         this.setState({
             posts: [...res]
         })
-        console.log('posts: ', this.state.posts)
+        // console.log('posts: ', this.state.posts)
         })
     }
 
@@ -36,11 +36,11 @@ constructor(props) {
 
     render() {
         return (
-            <div id="blog" className="blog">
-                <div className="blog__slider my-3 row m-0 w-100">
-                    {this.state.posts.slice(0,2).map((post, i)=>{
+            <div id="blog" className="blog m-0">
+                <div className="blog__slider my-3 row m-0 d-flex justify-content-between">
+                    {this.state.posts.slice(0,3).map((post, i)=>{
                         return (
-                            <div key={i} className="blog__post col-10 col-md-8 col-xl-5 my-3">
+                            <div key={i} className="blog__post col-10 col-md-8 col-xl-3 my-3">
                                 <a href={post.link}>
                                     <div className="text-center">
                                         <img alt={post.title} src={post.thumbnail} className="blog__topImg"></img>
@@ -48,12 +48,12 @@ constructor(props) {
                                     </div>
                                     <div className="blog__content">
                                         <div className="blog_preview">
-                                            <p className="blog__intro">{this.shortenText(this.toText(post.description), 0, 150)}</p>
+                                            <p className="blog__intro">{this.shortenText(this.toText(post.description), 0, 150)+ '...'}</p>
                                         </div>
                                         <hr />
                                         <div className="blog__info mb-2">
-                                            <span className="blog__author">{post.author}</span>
-                                            {/* <span className="blog__date">{post.pubDate}</span> */}
+                                            {/* <span className="blog__author">{post.author}</span> */}
+                                            <span className="blog__date">{post.pubDate.slice(0, 10)}</span>
                                         </div>
                                     </div>
                                 </a>

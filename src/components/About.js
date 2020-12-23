@@ -21,6 +21,9 @@ export default class About extends Component {
                             hiking somewhere, getting involved with my community or seeing new places in the world. 
                         </p>
                         <p>
+                            {/* add something about how I got into tech, mentino ACA! */}
+                        </p>
+                        <p>
                             {/* A great friend of mine & I have started a local community volunteer group to feed and provide necessities for people who are in need. 
                             We started this during the fall holiday season in 2020 to provide homecooked Thanksgiving meals for those who may have gone without. After that, 
                             we both wanted to stay consistent in doing more, not only for holidays but for all the time!  */}

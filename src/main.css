@@ -244,11 +244,7 @@ hr {
 }
 
 #blog .blog {
-  margin: 0 auto;
   padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 #blog .blog__post {
@@ -259,7 +255,7 @@ hr {
 }
 
 #blog .blog__topImg {
-  width: 50%;
+  width: 100%;
 }
 
 #blog .blog__post {
@@ -267,5 +263,11 @@ hr {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+
+@media (max-width: 769px) {
+  .blog__topImg {
+    width: 50% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
