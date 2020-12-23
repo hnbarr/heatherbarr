@@ -236,69 +236,24 @@ hr {
         color: inherit;
         text-decoration: none;
     }
-    ul{
-    padding: 0;
-    list-style-type: none;
-    }
-    
     .blog{
         margin: 0 auto;
-        padding: 2rem;
-        align-items: center;
+        padding: 1rem;
+        display: flex;
         &__post{
         margin: 0 auto;
-        width: 90%;
         -webkit-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
         -moz-box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
         box-shadow: 9px 9px 20px 0px rgba(0,0,0, .4);
         margin-bottom: 1rem;
         }
         &__topImg{
-        max-width: 100%;
+        width: 50%;
         }
-        &__content{
-        padding: .8rem;
-        }
-        &__preview{
-        font-size: .95rem;
-        font-weight: 300;
-        }
-        &__title{
-        margin-top: 0;
-        font-size: 1.4rem;
-        }
-        &__intro{
-        line-height: 1.5;
-        }
-        &__info{
-        font-weight: 300;
-        }
-        &__author{
-        font-size: .9rem;
-        }
-        &__date{
-        font-size: .85rem;
-        }
+        
         &__post {
             border-radius: 8px;
             height: fit-content
-        }
-    }
-    @media(min-width: 796px) {
-        .blog__post {
-            width: 80% !important;
-        }
-    }
-    @media(min-width: 1090px) {
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            li {
-                flex: 0 0 45%;
-            }
-        }
-        .blog__post {
-            width: 40% !important;
         }
     }
 }
