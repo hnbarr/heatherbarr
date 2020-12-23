@@ -38,7 +38,7 @@ constructor(props) {
         return (
             <div id="blog" className="blog">
                 <div className="blog__slider my-3 row m-0 w-100">
-                    {this.state.posts.map((post, i)=>{
+                    {this.state.posts.slice(0,2).map((post, i)=>{
                         return (
                             <div key={i} className="blog__post col-10 col-md-8 col-xl-5 my-3">
                                 <a href={post.link}>

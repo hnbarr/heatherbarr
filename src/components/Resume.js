@@ -23,9 +23,9 @@ export default class Resume extends Component {
                                     intuitive and engaging stores to support every stage of their growth!
                                 </p>
                                 <p>
-                                    As the Developer Community Moderator @ BigCommerce, I provide assistance and act as a resource 
-                                    to developers and partners participating in the Developer Community. Along other members in 
-                                    our community, I'm also a person that developers and partners talk to about errors or problems 
+                                    As the Developer Community Moderator @ BigCommerce, I provide assistance and act as an inside resource 
+                                    to developers and partners participating in the Developer Community. Just like the other members within 
+                                    our community, I'm a person that developers and partners can talk to about errors or problems 
                                     they may come across with their development! Overall, my main goal is to make sure that the 
                                     Developer Community is thriving with engaging, helpful discussions and ensuring questions are 
                                     getting answered with timely and thorough responses!
