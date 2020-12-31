@@ -41,9 +41,8 @@ export default class About extends Component {
                         </p>
                         <section className="alert alert-warning">
                             <p className="text-center">If you would like to connect about your personal or professional journey,
-                            <a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b> click here to reach out</b>&nbsp;</a>and let's talk! I love to hear new stories and meet new people & we can always use some help! 
+                            <a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b> click here to reach out</b>&nbsp;</a>and let's talk! I love to hear new stories and meet new people! 
                             </p>
-                            {/* <hr /> */}
                         </section>
                         <p>
                             👀 I'm currently trying to learn to play guitar and how to speak Italian, so if you'd like to connect about either of these, I definitely would as well! 
