@@ -40,7 +40,7 @@ export default class About extends Component {
                             {/* For more information on our goals and actions, <Link to="www.google.com" className="siteLink" target="_blank">check out our site!</Link> */}
                         </p>
                         <section className="alert alert-warning">
-                            <p className="text-center">If you would like to connect about your personal or professional journey,
+                            <p className="text-center mt-2">If you would like to connect about your personal or professional journey,
                             <a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b> click here to reach out</b>&nbsp;</a>and let's talk! I love to hear new stories and meet new people! 
                             </p>
                         </section>
