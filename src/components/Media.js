@@ -42,7 +42,7 @@ constructor(props) {
                         return (
                             <div key={i} className="blog__post col m-4 m-sm-3 m-md-2">
                                 <a href={post.link}>
-                                    <div className="text-center">
+                                    <div className="text-center my-2">
                                         <img alt={post.title} src={post.thumbnail} className="blog__topImg"></img>
                                         <h2 className="blog__title">{this.shortenText(this.toText(post.title), 0, 25)+ '...'}</h2>
                                     </div>

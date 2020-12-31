@@ -9,7 +9,7 @@ export default class TwitterHeader extends Component {
         super(props)
     
         this.state = {
-             twitterImg: ProfileSm,
+             twitterImg: OasisSm,
              images: [OasisSm, CatsSM, NolaSm, ProfileSm]
         }
     }
