@@ -22,9 +22,9 @@ export default class About extends Component {
                         </ul>
                         <p>
                             My journey has been a bit all over the place, but I wouldn't change it for anything! I'm all for taking risks and trying new things, 
-                            and would recomend everyone to do that as well! You never know where life can take you, if you give it a chance. I've been able to meet some incredible people and contribute on all kinds of teams!   
+                            and would recomend everyone to do that as well! You never know where life can take you, if you give it a chance. I've been able to 
+                            meet, work with, struggle with and win-big with so many incredible people! These people and moments being the sugar and spice of who I am today! 
                         </p>
-            
                         <p>
                             🌳 In my natural habitat, you can find in my home spending time with my fur babies - two lovely kitties, writing, cooking OR 
                             outside hiking somewhere, seeing new places in the world & getting involved with my community. 
