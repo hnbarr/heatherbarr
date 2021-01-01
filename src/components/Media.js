@@ -15,7 +15,7 @@ constructor(props) {
         const res = data.items 
 
         this.setState({
-            posts: [...res]
+            posts: res
         })
         // console.log('posts: ', this.state.posts)
         })

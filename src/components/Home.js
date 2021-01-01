@@ -15,20 +15,11 @@ export default class Home extends Component {
                             be the ultimate career goal for me. I love building relationships with my peers as well as contributing to acheive any and all goals. 
                             I believe in people-first everything and live by that message daily. 
                         </p>
-                        {/* <p>
-                            Being fresh in my career means ...
-                        </p>
-                        <p>
-                            Being people first means ...   
-                        </p>
-                        <p>
-                            Being a friend and ally for my comminuty means ...
-                        </p> */}
                     </div>
                     <div className="col-12 text-center">
                         <div className="container" id="MediaComponent">
                             <div className="row">
-                                <div className="col-12 my-3">
+                                <div className="col-12 my-1">
                                     <blockquote className="twitter-tweet p-3">
                                         <TwitterHeader/>
                                         <p className="twitter-body" lang="en" dir="ltr">
@@ -40,6 +31,22 @@ export default class Home extends Component {
                                 </div>
                                 <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                             </div>
+                            {/* <div className="row">
+                                <div className="col-12 col-md-6 my-1">
+                                    <blockquote className="twitter-tweet p-3">
+                                        <p className="twitter-body" lang="en" dir="ltr">
+                                            create medium card here!
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <div className="col-12 col-md-6 my-1">
+                                    <blockquote className="twitter-tweet p-3">
+                                        <p className="twitter-body" lang="en" dir="ltr">
+                                            create sky podcast preview card here!
+                                        </p>
+                                    </blockquote>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

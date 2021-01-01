@@ -12,19 +12,19 @@ export default class About extends Component {
                             👋 Nice to meet you, I'm Heather! 
                         </p>
                         <p>
+                            My journey has been a bit all over the place, but I wouldn't change it for anything! I'm all for taking risks and trying new things, 
+                            and would recomend everyone to do that as well! You never know where life can take you, if you give it a chance. I've been able to 
+                            meet, work with, struggle with and win-big with so many incredible people! These people and moments being the sugar and spice of who I am today! 
+                        </p>
+                        <p>
                             🌵 Moved to Austin back in 2016 from ETX (East Texas) and never looked back! Austin is <b>my city</b> and if you're not 
-                            here now, consider a visit! Hit me up for some foodie and activity suggestions when you arrive! Some of my fav food/coffe spots are: 
+                            here now, consider a visit! Hit me up for some foodie and activity suggestions when you arrive! Some of my fav food/coffee spots are: 
                         </p>
                         <ul>
                             <li>Santorini Cafe (North Austin on N Lamar)</li>
                             <li>Radio Coffee & Beer (Sounth Austin on Manchaca)</li>
                             <li>and ... Chuy's becuase I'm a Chuy's Queen 👑</li>
                         </ul>
-                        <p>
-                            My journey has been a bit all over the place, but I wouldn't change it for anything! I'm all for taking risks and trying new things, 
-                            and would recomend everyone to do that as well! You never know where life can take you, if you give it a chance. I've been able to 
-                            meet, work with, struggle with and win-big with so many incredible people! These people and moments being the sugar and spice of who I am today! 
-                        </p>
                         <p>
                             🌳 In my natural habitat, you can find in my home spending time with my fur babies - two lovely kitties, writing, cooking OR 
                             outside hiking somewhere, seeing new places in the world & getting involved with my community. 
