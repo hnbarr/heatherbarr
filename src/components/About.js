@@ -17,11 +17,12 @@ export default class About extends Component {
                             meet, work with, struggle with and win-big with so many incredible people! These people and moments being the sugar and spice of who I am today! 
                         </p>
                         <p>
-                            🌵 Moved to Austin back in 2016 from ETX (East Texas) and never looked back! Austin is <b>my city</b> and if you're not 
+                            🌵 Moved to Austin back in 2016 from ETX (East Texas) and never looked back! Austin has definitely been interesting and super wonderful to me! If you're not 
                             here now, consider a visit! Hit me up for some foodie and activity suggestions when you arrive! Some of my fav food/coffee spots are: 
                         </p>
                         <ul>
                             <li>Santorini Cafe (North Austin on N Lamar)</li>
+                            <li>Smokin' Beauty (North and BBQ! Wooh!) 🙌🏼</li>
                             <li>Radio Coffee & Beer (Sounth Austin on Manchaca)</li>
                             <li>and ... Chuy's becuase I'm a Chuy's Queen 👑</li>
                         </ul>

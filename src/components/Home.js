@@ -19,7 +19,7 @@ export default class Home extends Component {
                     <div className="col-12 text-center">
                         <div className="container" id="MediaComponent">
                             <div className="row">
-                                <div className="col-12 my-1">
+                                {/* <div className="col-12 col-lg-6 my-1">
                                     <blockquote className="twitter-tweet p-3">
                                         <TwitterHeader/>
                                         <p className="twitter-body" lang="en" dir="ltr">
@@ -28,7 +28,11 @@ export default class Home extends Component {
                                             <a href="https://twitter.com/hashtag/BCPartners?src=hash&amp;ref_src=twsrc%5Etfw">#BCPartners</a> and devs, please reach out with any questions about our APIs, SDKs, docs! ✌🏼
                                         </p>
                                     </blockquote>
-                                </div>
+                                </div> */}
+                            
+                                <div className="col-12 my-1">
+                                    <h6>Join us to talk about all things community, and some other things not. 😋</h6>
+                                    <iframe src="https://discordapp.com/widget?id=819721635468673035&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>                                </div>
                                 <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                             </div>
                             {/* <div className="row">
