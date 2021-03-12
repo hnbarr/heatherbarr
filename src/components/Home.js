@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TwitterHeader from './TwitterHeader'
+// import TwitterHeader from './TwitterHeader'
 
 export default class Home extends Component {
     render() {
@@ -30,10 +30,11 @@ export default class Home extends Component {
                                     </blockquote>
                                 </div> */}
                             
-                                <div className="col-12 my-1">
-                                    <h6>Join us to talk about all things community, and some other things not. 😋</h6>
-                                    <iframe src="https://discordapp.com/widget?id=819721635468673035&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>                                </div>
-                                <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+                                <div className="col-12 my-1 justify-content-center">
+                                    <span><h6>Most things community, and some things not. 😋</h6><a className="siteLink" href="https://discord.gg/YCC7ttuTfE">Join here!</a></span>
+                                    <br/>
+                                    <iframe src="https://discordapp.com/widget?id=819721635468673035&theme=dark" width="350" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>                                </div>
+                                {/* <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
                             </div>
                             {/* <div className="row">
                                 <div className="col-12 col-md-6 my-1">
