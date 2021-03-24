@@ -30,10 +30,12 @@ export default class Home extends Component {
                                     </blockquote>
                                 </div> */}
                             
-                                <div className="col-12 my-1 justify-content-center">
+                                {/* <div className="col-12 my-1 justify-content-center">
                                     <span><h6>Most things community, and some things not. 😋</h6><a className="siteLink" href="https://discord.gg/YCC7ttuTfE">Join here!</a></span>
                                     <br/>
-                                    <iframe src="https://discordapp.com/widget?id=819721635468673035&theme=dark" width="350" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>                                </div>
+                                    <iframe src="https://discordapp.com/widget?id=819721635468673035&theme=dark" width="350" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>                                
+                                </div> */}
+                                
                                 {/* <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
                             </div>
                             {/* <div className="row">
