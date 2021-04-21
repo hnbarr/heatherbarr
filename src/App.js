@@ -34,10 +34,10 @@ function App() {
               <div className="col-12 col-md-6 col-xl-8">
               <NavTabs />
                 <div id="activePane">
-                <Home />
+                {/* <Home /> */}
                   <Switch>
-                      {/* <Route exact path='/' component={Home}></Route> */}
-                      {/* <Route path='/Home' component={Home}></Route>                     */}
+                      <Route exact path='/' component={Home}></Route>
+                      <Route path='/Home' component={Home}></Route>                    
                       <Route path='/About' component={About}></Route>    
                       <Route path='/History' component={Resume}></Route>                
                       <Route path='/Stories' component={Media}></Route>                
@@ -60,10 +60,10 @@ function App() {
                 <div className="col-12 col-md-6">
                   <NavTabs/>
                   <div id="activePane" className="mb-2">
-                  <Home />
+                  {/* <Home /> */}
                     <Switch>
-                        {/* <Route exact path='/' component={Home}></Route> */}
-                        {/* <Route path='/Home' component={Home}></Route>                     */}
+                        <Route exact path='/' component={Home}></Route>
+                        <Route path='/Home' component={Home}></Route>                    
                         <Route path='/About' component={About}></Route>    
                         <Route path='/History' component={Resume}></Route> 
                         <Route path='/Stories' component={Media}></Route>                               
