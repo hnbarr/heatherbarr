@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import HeatherBarr_Resume from '../images/HeatherBarr_Resume.pdf'
+import HeatherBarrResume from '../images/HeatherBarrResume.pdf'
 
 
 export default class Resume extends Component {
@@ -11,24 +11,24 @@ export default class Resume extends Component {
                     <div className="col-12 my-3">
                         <section className="alert alert-warning text-center">
                             <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to 
-                            <Link className="siteLink" to={HeatherBarr_Resume} target="_blank" download> <b>download my resume!</b></Link></p>
+                            <Link className="siteLink" to={HeatherBarrResume} target="_blank" download> <b>download my resume!</b></Link></p>
                         </section>
                         <h5>BigCommerce</h5>
                         <div>
                             <span><b>Developer Community Moderator</b>&nbsp;<small><i>2020-Current</i></small></span>
                             <div className="px-2">
-                                <p>
+                                {/* <p>
                                     To brag about my company a bit, BigCommerce is disrupting the e-commerce industry as the SaaS 
                                     leader for fast- growing, mid-market businesses. We enable our customers to build 
                                     intuitive and engaging stores to support every stage of their growth!
-                                </p>
+                                </p> */}
                                 <p>
-                                    As the Developer Community Moderator @ BigCommerce, I provide assistance and act as an inside resource 
-                                    to developers and partners participating in the Developer Community. Just like the other members within 
-                                    our community, I'm a person that developers and partners can talk to about errors or problems 
-                                    they may come across with their development! Overall, my main goal is to make sure that the 
-                                    Developer Community is thriving with engaging, helpful discussions and ensuring questions are 
-                                    getting answered with timely and thorough responses!
+                                    As the Developer Community Moderator @ BigCommerce, my place on our team is in-between Community & DevRel.
+                                    So this gives me a bit of insight into both sides of BigCommerce, being merchants and developers that are members of our community.
+                                    Just like other members within our community, I'm a person that developers and partners can talk to about errors or problems 
+                                    they may come across with their development! In addition to that, I work alongside our Developer Advocates to bring developer feedback back to our Product teams.
+                                    I also create content for our Developer Blog on Medium, Moderate our BigCommerce Town Hall Quarterly Series and host our BC4WP: What's the Word quarterly webinar.
+                                    Overall, my purpose and goal is to ensure that the developer spaces are thriving, engaging, and a positive place for developers and partners to gather. 
                                 </p>
                             </div>
                         </div>

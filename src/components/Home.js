@@ -12,7 +12,7 @@ export default class Home extends Component {
                     <div className="col-12">
                         <p>
                             To work alongside a great team that communicates openly, shares thoughts and values is and will always 
-                            be the ultimate career goal for me. I love building relationships with my peers as well as contributing to acheive any and all goals. 
+                            be the ultimate career goal for me. I love building relationships with my peers as well as contributing to achieve any and all goals. 
                             I believe in people-first everything and live by that message daily. 
                         </p>
                     </div>
