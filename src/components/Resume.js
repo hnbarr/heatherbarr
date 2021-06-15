@@ -27,7 +27,7 @@ export default class Resume extends Component {
                                     So this gives me a bit of insight into both sides of BigCommerce, being merchants and developers that are members of our community.
                                     Just like other members within our community, I'm a person that developers and partners can talk to about errors or problems 
                                     they may come across with their development! In addition to that, I work alongside our Developer Advocates to bring developer feedback back to our Product teams.
-                                    I also create content for our Developer Blog on Medium, Moderate our BigCommerce Town Hall Quarterly Series and host our BC4WP: What's the Word quarterly webinar.
+                                    I also create content for our Developer Blog on Medium, in addition to hosting and moderating webinar events.
                                     Overall, my purpose and goal is to ensure that the developer spaces are thriving, engaging, and a positive place for developers and partners to gather. 
                                 </p>
                             </div>
