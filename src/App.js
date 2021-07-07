@@ -9,6 +9,7 @@ import Media from './components/Media';
 import Resume from './components/Resume';
 import About from './components/About';
 import NavTabs from './components/NavTabs';
+import Van from './components/Van';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -40,7 +41,8 @@ function App() {
                       <Route path='/Home' component={Home}></Route>                    
                       <Route path='/About' component={About}></Route>    
                       <Route path='/History' component={Resume}></Route>                
-                      <Route path='/Stories' component={Media}></Route>                
+                      <Route path='/Stories' component={Media}></Route> 
+                      <Route path='/MyVan' component={Van}></Route>                
                   </Switch>
                 </div>
               </div>
@@ -66,7 +68,8 @@ function App() {
                         <Route path='/Home' component={Home}></Route>                    
                         <Route path='/About' component={About}></Route>    
                         <Route path='/History' component={Resume}></Route> 
-                        <Route path='/Stories' component={Media}></Route>                               
+                        <Route path='/Stories' component={Media}></Route>  
+                        <Route path='/MyVan' component={Van}></Route>                                             
                     </Switch>
                   </div>
                 </div>
