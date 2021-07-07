@@ -46,7 +46,7 @@ export default class About extends Component {
                             </p>
                         </section>
                         <p>
-                            👀 I'm currently trying to learn to play guitar and how to speak Italian, so if you'd like to connect about either of these, I definitely would as well! 
+                            👀 I'm currently trying to learn to play guitar, how to speak Italian, and I'm converting my Ram Promaster van so if you'd like to connect on these, I definitely would as well! 
                             Let's hold each other accountable this year annd get those skills up! 
                         </p>
                     </div>
