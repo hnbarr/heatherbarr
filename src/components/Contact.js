@@ -41,7 +41,7 @@ export default class Contact extends Component {
                             <p>[ she / her ]</p>
                             <div>
                                 <h6>Developer Community Moderator @ BigCommerce</h6>
-                                <p>Adventurer, Artist, Cook, Cat-Mom, Daughter, Friend</p>
+                                <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Daughter, Friend</p>
                             </div>
                             <div className="d-flex justify-content-between w-50 px-2" id="socialLinks">
                                 <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>
@@ -58,7 +58,7 @@ export default class Contact extends Component {
                         <p>[ she / her ]</p>
                         <div>
                             <h6>Developer Community Moderator @ BigCommerce</h6>
-                            <p>Adventurer, Artist, Cook, Cat-Mom, Friend, Daughter</p>
+                            <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Friend, Daughter</p>
                         </div>
                         <div className="d-flex justify-content-between w-90 px-2" id="socialLinks">
                             <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>
