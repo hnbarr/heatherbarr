@@ -10,13 +10,13 @@ export default class Van extends Component {
                 <p>
                     Progress pics and short story coming soon!
                 </p>
-                <p>
+                {/* <p>
                     In the meantime, I'd love your support on Vocal.media ❤️ 
                     <br/>
                     <span>
                         <a target="_blank" href="https://vocal.media/authors/heather-barr">Check out my profile here</a>
                     </span>
-                </p>
+                </p> */}
             </div>
         )
     }

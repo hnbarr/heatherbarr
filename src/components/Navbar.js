@@ -11,6 +11,7 @@ export default class Navbar extends Component {
                     <a className="nav-item nav-link" href="/History">Resume</a>
                     <a className="nav-item nav-link" href="/About">About</a>
                     <a className="nav-item nav-link" href="/Stories">Stories</a>
+                    <a className="nav-item nav-link" href="/MyVan">Van 🚐</a>
                     </div>
                 </div>
             </nav>
