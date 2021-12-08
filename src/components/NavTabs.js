@@ -19,9 +19,9 @@ export default class NavTabs extends Component {
                 <li className="nav-item mr-2">
                     <NavLink className="nav-link" activeClassName="active" to="/Stories"><i className="fab fa-medium-m"></i><span className="sr-only">medium</span></NavLink>
                 </li>
-                <li className="nav-item mr-2">
+                {/* <li className="nav-item mr-2">
                     <NavLink className="nav-link" activeClassName="active" to="/MyVan">Van 🚐</NavLink>
-                </li>
+                </li> */}
             </ul>
         )
     }
