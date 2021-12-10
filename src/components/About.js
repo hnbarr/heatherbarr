@@ -14,7 +14,7 @@ export default class About extends Component {
                         <p className="pt-2">
                             My journey has been a bit all over the place, but I wouldn't change it for anything! I'm all for taking risks and trying new things, 
                             and would recomend everyone to do that as well! You never know where life can take you, if you give it a chance. I've been able to 
-                            meet, work with, struggle with and win-big with so many incredible people! These people and moments being the sugar and spice of who I am today! 
+                            meet, work with, struggle with and win-big with so many incredible people! These people and moments are the sugar and spice of who I am today! 
                         </p>
                         <p className="pt-2">
                             🌵 Moved to Austin back in 2016 from ETX (East Texas) and never looked back! Austin has definitely been interesting and super wonderful to me! If you're not 
