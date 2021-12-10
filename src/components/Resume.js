@@ -30,6 +30,12 @@ export default class Resume extends Component {
                                     I also create content for our Developer Blog on Medium, in addition to hosting and moderating webinar events.
                                     Overall, my purpose and goal is to ensure that the developer spaces are thriving, engaging, and a positive place for developers and partners to gather. 
                                 </p>
+                                <p className="px-2">
+                                    Accomplishments;
+                                </p>
+                                <ul>
+                                    <li>Developed and  maintained a community program which has since then been adopted as an internal process for the community + devrel teams.</li>
+                                </ul>
                             </div>
                         </div>
                         <hr />

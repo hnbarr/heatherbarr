@@ -22,6 +22,7 @@ export default class About extends Component {
                         </p>
                         <ul>
                             <li>Santorini Cafe (North Austin on N Lamar)</li>
+                            {/* need to add in new places once I move and take off the below! */}
                             <li>Smokin' Beauty (North and BBQ! Wooh!) 🙌🏼</li>
                             <li>Radio Coffee & Beer (Sounth Austin on Manchaca)</li>
                             <li>and ... Chuy's becuase I'm a Chuy's Queen 👑</li>
