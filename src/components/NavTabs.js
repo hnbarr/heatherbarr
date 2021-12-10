@@ -7,9 +7,9 @@ export default class NavTabs extends Component {
     render() {
         return (
             <ul className="nav nav-tabs navtabs d-flex p-0 d-print-none">
-                <li className="nav-item ml-2 active">
+                {/* <li className="nav-item ml-2 active">
                     <NavLink className="nav-link" activeClassName="active" to="/Home">Home</NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item mx-2">
                     <NavLink className="nav-link" activeClassName="active" to="/About">About</NavLink>
                 </li>

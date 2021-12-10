@@ -9,6 +9,18 @@ export default class Resume extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 my-3">
+                        <h4 className="text-center">
+                            <b>I'm passionate about creating inclusive environments everywhere I go!</b> 
+                        </h4>
+                        <div className="text-center">
+                            <p>
+                                To work alongside a great team that communicates openly, shares thoughts and values is and will always 
+                                be the ultimate career goal for me. I love building relationships and am so lucky that I now get to do that professionally for brands. 
+                                I believe in people-first everything and live by that message. 
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-12 mb-3">
                         <section className="alert alert-warning text-center">
                             <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to 
                             <Link className="siteLink" to={HeatherBarrResume} target="_blank" download> <b>download my resume!</b></Link></p>
@@ -30,9 +42,9 @@ export default class Resume extends Component {
                                     I also create content for our Developer Blog on Medium, in addition to hosting and moderating webinar events.
                                     Overall, my purpose and goal is to ensure that the developer spaces are thriving, engaging, and a positive place for developers and partners to gather. 
                                 </p>
-                                <p className="px-2">
+                                <b className="px-2">
                                     Accomplishments;
-                                </p>
+                                </b>
                                 <ul>
                                     <li>Developed and maintained a community program which has since then been adopted on the Community + DevRel teams.</li>
                                 </ul>
@@ -55,23 +67,23 @@ export default class Resume extends Component {
                             </p>
                         </div>
                         <hr />
-                        <h5>Visa</h5>
+                        {/* <h5>Visa</h5>
                         <div>
                             <span><b>Client Services Representative - CSR</b>&nbsp;<small><i>2018 (8 months)</i></small></span>
                             <p className="px-2">
                                 Providing phone support to cardholders nationwide. Working in multiple programs and applications to find solutions and resolve problems for cardholders. Only three months after initial on boarding training, I was able to train for other products to assist with additional card programs. Visa has a wonderful environment, which is something that I will definitely seek in all future career moves. I then went to serve tables while in school to become a developer.
                             </p>
                         </div>
-                        <hr />
+                        <hr /> */}
                         <h5>Yodle / Web.com</h5>
                         <div>
-                            <span><b>Sales Representative</b>&nbsp;<small><i>2017 (1 year)</i></small></span>
+                            <span><b>Sales Representative</b>&nbsp;<small><i>2017 - 2018 (1 year)</i></small></span>
                             <p className="px-2">
                             What an experience, I learned so much from my time here! This was the most challenging job I've had to date, but with that comes the most rewarding! The first few months were very difficult for me, however I carried on and pushed myself until I gained success. After my fourth month, I shot to the top of the charts. I was consistent since then, every pay period finishing over goal. Hard work definitely pays off. My journey started as an entry level sales representative for a product called "Essentials" for Yodle, which I pushed through until finding success.                             
                             </p>
-                            <p className="px-2">
+                            <b className="px-2">
                             Accomplishments for Yodle;
-                            </p>
+                            </b>
                                 <ul>
                                     <li>#1 Sales Rep. June in Essentials Sales.</li>
                                     <li>#1 Sales Rep. July in Essentials Sales.</li>
@@ -79,9 +91,9 @@ export default class Resume extends Component {
                             <p className="px-2">
                             After my success with Yodle, Web.com acquired the company and led me to being one of 7 reps in a Sales Lab for a new Web.com product. While in this sales lab, I lead the team in deals and carried us to our goals. The position I had at Yodle and Web.com played a major part in who I am today.
                             </p>
-                            <p className="px-2">
+                            <b className="px-2">
                             Accomplishments for Web.com;
-                            </p>
+                            </b>
                                 <ul>
                                     <li>#1 Sales Rep. Web.com sales lab for 2 months</li>
                                 </ul>

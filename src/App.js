@@ -4,7 +4,7 @@ import {ThemeProvider} from "styled-components";
 import { GlobalStyles } from "./components/GlobalStyles";
 import { lightTheme, darkTheme } from "./components/Theme"
 import Contact from './components/Contact';
-import Home from './components/Home';
+// import Home from './components/Home';
 import Media from './components/Media';
 import Resume from './components/Resume';
 import About from './components/About';
@@ -37,8 +37,8 @@ function App() {
                 <div id="activePane">
                 {/* <Home /> */}
                   <Switch>
-                      <Route exact path='/' component={Home}></Route>
-                      <Route path='/Home' component={Home}></Route>                    
+                      <Route exact path='/' component={About}></Route>
+                      {/* <Route path='/Home' component={Home}></Route>                     */}
                       <Route path='/About' component={About}></Route>    
                       <Route path='/History' component={Resume}></Route>                
                       <Route path='/Stories' component={Media}></Route> 
@@ -64,8 +64,8 @@ function App() {
                   <div id="activePane" className="mb-2">
                   {/* <Home /> */}
                     <Switch>
-                        <Route exact path='/' component={Home}></Route>
-                        <Route path='/Home' component={Home}></Route>                    
+                        <Route exact path='/' component={About}></Route>
+                        {/* <Route path='/Home' component={Home}></Route>                     */}
                         <Route path='/About' component={About}></Route>    
                         <Route path='/History' component={Resume}></Route> 
                         <Route path='/Stories' component={Media}></Route>  
