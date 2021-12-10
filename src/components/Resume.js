@@ -34,8 +34,11 @@ export default class Resume extends Component {
                                     Accomplishments;
                                 </p>
                                 <ul>
-                                    <li>Developed and  maintained a community program which has since then been adopted as an internal process for the community + devrel teams.</li>
+                                    <li>Developed and maintained a community program which has since then been adopted on the Community + DevRel teams.</li>
                                 </ul>
+                                {/* <ul>
+                                    <li> Successfully sourced, porposed and groomed the process to solidify additional support and enghagement from internal and extrenal resources for two seperate community audiences. This not only was to address an apparent opportunity in our Community for expanded engagement, and support but also to provide bandwidth relief to the Community Team for future program development. </li>
+                                </ul> */}
                             </div>
                         </div>
                         <hr />
