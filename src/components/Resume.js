@@ -9,22 +9,22 @@ export default class Resume extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 my-3">
-                        <h4 className="text-center">
-                            <b>I'm passionate about creating inclusive environments everywhere I go!</b> 
-                        </h4>
+                        {/* <h4 className="text-center">
+                            <b>No clue</b> 
+                        </h4> */}
                         <div className="text-center">
-                            <p>
+                            {/* <p>
                                 To work alongside a great team that communicates openly, shares thoughts and values is and will always 
                                 be the ultimate career goal for me. I love building relationships and am so lucky that I now get to do that professionally for brands. 
                                 I believe in people-first everything and live by that message. 
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                     <div className="col-12 mb-3">
-                        <section className="alert alert-warning text-center">
+                        {/* <section className="alert alert-warning text-center">
                             <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to 
-                            <Link className="siteLink" to={HeatherBarrResume} target="_blank" download> <b>download my resume!</b></Link></p>
-                        </section>
+                            <Link className="siteLink" to={HeatherBarrResume} target="_blank" download> <b>Employeers, here's my resume!</b></Link></p>
+                        </section> */}
                         <h5>BigCommerce</h5>
                         <div>
                             <span><b>Developer Community Moderator</b>&nbsp;<small><i>2020-Current</i></small></span>
@@ -98,7 +98,7 @@ export default class Resume extends Component {
                                     <li>#1 Sales Rep. Web.com sales lab for 2 months</li>
                                 </ul>
                         </div>
-                        <hr />
+                        {/* <hr />
                         <h5>Times Square Vape Lab (T.S.V.L LLC)</h5>
                         <div><span><b>Retail Sales Member</b>&nbsp;<small><i>2013-2014 (9 months)</i></small></span>
                             <p className="px-2"> 
@@ -120,9 +120,9 @@ export default class Resume extends Component {
                             <p className="px-2">
                                 Becoming the US Distributor for a well known preformance hardware supplier in the industry definitely helped our growth. Some everyday tasks included but are not limited to; Maintained wholesale orders, maintained relationships with the manufacturer & our distribution clients, assisting the owners in landing new wholesale accounts, kept log of communications, inventory.
                             </p>
-                        </div>
-                    </div>
-                </div>
+                        </div> */}
+                    </div> 
+                </div> 
             </div>
         )
     }
