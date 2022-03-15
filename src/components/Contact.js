@@ -8,7 +8,7 @@ import React, { Component } from 'react'
 // import ZionLg from '../images/IMG_0046.jpeg'
 // import NolaLg from '../images/IMG_2575.jpeg'
 import AZ from '../images/AZ.png'
-import Yellow from '../images/lofi_yellow.PNG'
+// import Yellow from '../images/lofi_yellow.PNG'
 import Patches from '../images/lofi_patches.PNG'
 
 export default class Contact extends Component {
@@ -21,15 +21,15 @@ export default class Contact extends Component {
             mobileImages: [],
             // ZionLg, NolaLg],
             roundImage: AZ,
-            mobileImage: Yellow
+            mobileImage: Patches
         }
     }
     
-    imageToggler = () => {
-        this.setState({
-            roundImage: this.state.roundImages[Math.floor(Math.random() * Math.floor(this.state.roundImages.length))]
-        })
-    }
+    // imageToggler = () => {
+    //     this.setState({
+    //         roundImage: this.state.roundImages[Math.floor(Math.random() * Math.floor(this.state.roundImages.length))]
+    //     })
+    // }
 
     render() {
         return (
