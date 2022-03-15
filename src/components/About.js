@@ -12,25 +12,18 @@ export default class About extends Component {
                             Nice to meet you, I'm Heather! 
                         </p>
                         <p className="pt-2">
-                            My journey has been a bit all over the place, but I wouldn't change it for anything! I'm all for taking risks and trying new things, 
-                            and would recomend everyone to do that as well! You never know where life can take you, if you give it a chance. I've been able to 
-                            meet, work with, struggle with and win-big with so many incredible people! These people and moments are the sugar and spice of who I am today! 
+                            I like to go outside, chill with my cats and travel in a van. 🚐
                         </p>
                         <p className="pt-2">
-                            🌵 Moved to Austin back in 2016 from ETX (East Texas) and never looked back! Austin has definitely been interesting and super wonderful to me! If you're not 
-                            here now, consider a visit! Hit me up for some foodie and activity suggestions when you arrive! Some of my fav food/coffee spots are: 
+                            ✌️ Austin, TX
                         </p>
-                        <ul>
+                        {/* <ul>
                             <li>Santorini Cafe (North Austin on N Lamar)</li>
-                            {/* need to add in new places once I move and take off the below! */}
+                            need to add in new places once I move and take off the below!
                             <li>Smokin' Beauty (North and BBQ! Wooh!) 🙌🏼</li>
                             <li>Radio Coffee & Beer (Sounth Austin on Manchaca)</li>
                             <li>and ... Chuy's becuase I'm a Chuy's Queen 👑</li>
-                        </ul>
-                        <p className="pt-2">
-                            🌳 In my natural habitat, you can find in my home spending time with my fur babies - two lovely kitties, writing, cooking OR 
-                            outside hiking somewhere, seeing new places in the world & getting involved with my community. 
-                        </p>
+                        </ul> */}
                         <p>
                             {/* add something about how I got into tech, mentino ACA! */}
                         </p>
@@ -41,15 +34,11 @@ export default class About extends Component {
                             {/* <br /> */}
                             {/* For more information on our goals and actions, <Link to="www.google.com" className="siteLink" target="_blank">check out our site!</Link> */}
                         </p>
-                        <section className="alert alert-warning pt-3">
+                        {/* <section className="alert alert-warning pt-3">
                             <p className="text-center mt-2">If you would like to connect about your personal or professional journey,
                             <a className="siteLink" href="mailTo:hnbarr94@gmail.com?subject=Reaching out from your site to connect!"><b> click here to reach out</b>&nbsp;</a>and let's talk! I love to hear new stories and meet new people! 
                             </p>
-                        </section>
-                        <p>
-                            👀 I'm currently trying to learn to play guitar, how to speak Italian, and I'm converting my Ram Promaster van so if you'd like to connect on these, I definitely would as well! 
-                            Let's hold each other accountable this year annd get those skills up! 
-                        </p>
+                        </section> */}
                     </div>
                 </div>
             </div>
