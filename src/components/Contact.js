@@ -9,7 +9,9 @@ import React, { Component } from 'react'
 // import NolaLg from '../images/IMG_2575.jpeg'
 import AZ from '../images/AZ.png'
 // import Yellow from '../images/lofi_yellow.PNG'
-import Patches from '../images/lofi_patches.PNG'
+// import Patches from '../images/lofi_patches.PNG'
+import Laughing from '../images/mobileAZ.jpeg'
+
 
 export default class Contact extends Component {
     constructor(props) {
@@ -21,7 +23,7 @@ export default class Contact extends Component {
             mobileImages: [],
             // ZionLg, NolaLg],
             roundImage: AZ,
-            mobileImage: Patches
+            mobileImage: Laughing
         }
     }
     

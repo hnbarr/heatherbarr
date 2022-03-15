@@ -13,7 +13,6 @@ h5 {
 
 ul.navtabs {
   list-style-type: none;
-  justify-content: center;
 }
 
 ul.navtabs li.nav-item {
@@ -99,15 +98,9 @@ ul.navtabsMobile li.nav-item .active {
 
 @media (max-width: 769px) {
   #mobileTopPane {
-    background-image: url("./images/IMG_0046.jpeg");
+    background-image: url("./images/mobileAZ.jpeg");
     background-size: cover;
     background-position: center;
-  }
-}
-
-@media (min-width: 1094px ){
-  ul.navtabs {
-    justify-content: left;
   }
 }
 
