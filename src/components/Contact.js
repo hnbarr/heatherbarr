@@ -46,14 +46,15 @@ export default class Contact extends Component {
                             <h3>Heather Barr</h3>
                             <p>[ she / her ]</p>
                             <div>
-                                <h6>Developer Community Moderator @ BigCommerce</h6>
+                                <h6>Developer Community Manager @ BigCommerce</h6>
                                 <p>Developer, Adventurer, Artist, Cook, Cat-Mom, Daughter, Friend</p>
                             </div>
                             <div className="d-flex justify-content-between w-50 px-2" id="socialLinks">
-                                <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>
-                                <a rel="external" href="https://angel.co/u/hnbarr"><i className="fab fa-angellist"></i></a>
-                                <a rel="external" href="https://github.com/hnbarr"><i className="fab fa-github"></i></a>
+                                {/* <a rel="external" href="https://github.com/hnbarr"><i className="fab fa-github"></i></a> */}
+                                <a rel="external" href="https://www.instagram.com/heatherrbarr/"><i className="fab fa-instagram"></i></a>
                                 <a rel="external" href="https://twitter.com/hnbarr_"><i className="fab fa-twitter"></i></a>
+                                <a rel="external" href="https://angel.co/u/hnbarr"><i className="fab fa-angellist"></i></a>
+                                <a rel="external" href="https://www.linkedin.com/in/hnbarr/"><i className="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

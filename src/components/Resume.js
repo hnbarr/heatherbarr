@@ -27,13 +27,15 @@ export default class Resume extends Component {
                         </section> */}
                         <h5>BigCommerce</h5>
                         <div>
-                            <span><b>Developer Community Moderator</b>&nbsp;<small><i>2020-Current</i></small></span>
+                        <span><b>Developer Community Manager</b>&nbsp;<small><i>2022-Current</i></small></span>
                             <div className="px-2">
-                                {/* <p>
-                                    To brag about my company a bit, BigCommerce is disrupting the e-commerce industry as the SaaS 
-                                    leader for fast- growing, mid-market businesses. We enable our customers to build 
-                                    intuitive and engaging stores to support every stage of their growth!
-                                </p> */}
+                                <p>
+                                    Building and scaling programs for the Developer Community at BigCommerce. Focusing on Developer Experience 
+                                    for the 3rd party developers and partners in the Developer Community. 
+                                </p>
+                            </div>    
+                            <span><b>Developer Community Associate</b>&nbsp;<small><i>2020-2022</i></small></span>
+                            <div className="px-2">
                                 <p>
                                     As the Developer Community Moderator @ BigCommerce, my place on our team is in-between Community & DevRel.
                                     So this gives me a bit of insight into both sides of BigCommerce, being merchants and developers that are members of our community.
@@ -42,21 +44,18 @@ export default class Resume extends Component {
                                     I also create content for our Developer Blog on Medium, in addition to hosting and moderating webinar events.
                                     Overall, my purpose and goal is to ensure that the developer spaces are thriving, engaging, and a positive place for developers and partners to gather. 
                                 </p>
-                                <b className="px-2">
+                                {/* <b className="px-2">
                                     Accomplishments;
                                 </b>
                                 <ul>
-                                    <li>Developed and maintained a community program which has since then been adopted on the Community + DevRel teams.</li>
-                                </ul>
-                                {/* <ul>
-                                    <li> Successfully sourced, porposed and groomed the process to solidify additional support and enghagement from internal and extrenal resources for two seperate community audiences. This not only was to address an apparent opportunity in our Community for expanded engagement, and support but also to provide bandwidth relief to the Community Team for future program development. </li>
+                                    <li></li>
                                 </ul> */}
                             </div>
                         </div>
                         <hr />
                         <h5>Clarity Ventures</h5>
                         <div>
-                            <span><b>Jr. Front End Developer</b>&nbsp;<small><i>2019-2020 (1 year)</i></small></span>
+                            <span><b>Front End Developer</b>&nbsp;<small><i>2019-2020 (1 year)</i></small></span>
                             <p className="px-2">
                                 Leading by example in content creation for new & current employees by uploading company stack overflow questions & answers, as well as creating internal documentation, training videos & teams wiki updates.
                                 Completing front end tickets on/ahead of time and being known as the most communicative developer within my team to our PMs on concerns, needs, successes and requirements/possible risks on change requests, especially when new.
