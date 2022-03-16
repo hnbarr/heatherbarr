@@ -5,11 +5,11 @@ import { GlobalStyles } from "./components/GlobalStyles";
 import { lightTheme, darkTheme } from "./components/Theme"
 import Contact from './components/Contact';
 // import Home from './components/Home';
-import Media from './components/Media';
+// import Media from './components/Media';
 import Resume from './components/Resume';
 import About from './components/About';
 import NavTabs from './components/NavTabs';
-import Van from './components/Van';
+// import Van from './components/Van';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -37,12 +37,12 @@ function App() {
                 <div id="activePane">
                 {/* <Home /> */}
                   <Switch>
-                      <Route exact path='/' component={About}></Route>
+                      {/* <Route exact path='/' component={About}></Route> */}
                       {/* <Route path='/Home' component={Home}></Route>                     */}
-                      <Route path='/About' component={About}></Route>    
-                      <Route path='/History' component={Resume}></Route>                
-                      <Route path='/Stories' component={Media}></Route> 
-                      <Route path='/MyVan' component={Van}></Route>                
+                      <Route path='/her' component={About}></Route>    
+                      <Route path='/work' component={Resume}></Route>                
+                      {/* <Route path='/Stories' component={Media}></Route>  */}
+                      {/* <Route path='/MyVan' component={Van}></Route>                 */}
                   </Switch>
                 </div>
               </div>
@@ -66,10 +66,10 @@ function App() {
                     <Switch>
                         <Route exact path='/' component={About}></Route>
                         {/* <Route path='/Home' component={Home}></Route>                     */}
-                        <Route path='/About' component={About}></Route>    
-                        <Route path='/History' component={Resume}></Route> 
-                        <Route path='/Stories' component={Media}></Route>  
-                        <Route path='/MyVan' component={Van}></Route>                                             
+                        <Route path='/her' component={About}></Route>    
+                        <Route path='/work' component={Resume}></Route> 
+                        {/* <Route path='/Stories' component={Media}></Route>   */}
+                        {/* <Route path='/MyVan' component={Van}></Route>                                              */}
                     </Switch>
                   </div>
                 </div>
