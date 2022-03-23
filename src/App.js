@@ -37,7 +37,7 @@ function App() {
                 <div id="activePane">
                 {/* <Home /> */}
                   <Switch>
-                      {/* <Route exact path='/' component={About}></Route> */}
+                      <Route exact path='/' component={About}></Route>
                       {/* <Route path='/Home' component={Home}></Route>                     */}
                       <Route path='/her' component={About}></Route>    
                       <Route path='/work' component={Resume}></Route>                
