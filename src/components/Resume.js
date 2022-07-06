@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-// import { Link } from 'react-router-dom'
-// import HeatherBarrResume from '../images/HeatherBarrResume.pdf'
+import { Link } from 'react-router-dom'
+import HeatherBarrResume from '../images/HeatherBarrResume2022.pdf'
 
 
 export default class Resume extends Component {
@@ -13,25 +13,23 @@ export default class Resume extends Component {
                             <b>No clue</b> 
                         </h4> */}
                         <div className="text-center">
-                            {/* <p>
-                                To work alongside a great team that communicates openly, shares thoughts and values is and will always 
-                                be the ultimate career goal for me. I love building relationships and am so lucky that I now get to do that professionally for brands. 
-                                I believe in people-first everything and live by that message. 
-                            </p> */}
+                            <p>
+                            I’ve been involved in the ecommerce industry for a while now! 
+                            <br/> Starting as a developer for small ecommerce SaaS company and leading into the role I currently have at BC. As the Developer Community Manager, my main goals are to ensure that developers and partners on the platform are positively connecting and collaborating with each other and to continuously add value to our spaces for you all. I’m so lucky to be able to connect with BigCommerce developers in this Industry and I’m so excited to watch our Community grow.
+                            </p>
                         </div>
                     </div>
                     <div className="col-12 mb-3">
-                        {/* <section className="alert alert-warning text-center">
-                            <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, click to 
-                            <Link className="siteLink" to={HeatherBarrResume} target="_blank" download> <b>Employeers, here's my resume!</b></Link></p>
-                        </section> */}
+                        <section className="alert alert-warning text-center">
+                            <p>The following is a in depth view of my previous roles. I love to tell my story and would enjoy if you looked it over! However, if you're only interested in my actual resume, 
+                            <Link className="siteLink" to={HeatherBarrResume} target="_blank" download> <b> here it is!</b></Link></p>
+                        </section>
                         <h5>BigCommerce</h5>
                         <div>
                         <span><b>Developer Community Manager</b>&nbsp;<small><i>2022-Current</i></small></span>
                             <div className="px-2">
                                 <p>
-                                    Building and scaling programs for the Developer Community at BigCommerce. Focusing on Developer Experience 
-                                    for the 3rd party developers and partners in the Developer Community. 
+                                    Building and scaling programs for the Developer Community at BigCommerce. I'm currently focusing on Community-Led initiatives and boosting internal engagement in the BigCommerce Developer Community.
                                 </p>
                             </div>    
                             <span><b>Developer Community Associate</b>&nbsp;<small><i>2020-2022</i></small></span>
